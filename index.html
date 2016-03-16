@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="drawApp">
   <head>
     <title>Draw Simulator</title>
       <meta charset="utf-8">
@@ -7,6 +7,8 @@
       <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
       <!-- Compiled and minified CSS -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.css">
+      <!-- Include Oswald font  -->
+      <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
       <!-- Including JQuery  -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js"></script>
       <!-- Compiled and minified JavaScript-->
@@ -15,20 +17,33 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
      <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
   </head>
-  <body>
+  <body ng-controller="drawController">
     <!-- Header area  -->
-    <header>
-
+    <header class="blue darken-4 white-text">
+      <nav class="top-nav blue darken-4">
+        <div class="container">
+          <div class="nav-wrapper">
+            <h1 class="center-align" style="text-transform: uppercase;">Draw Simulator</h1>
+          </div>
+        </div>
     </header>
 
     <!-- Main area  -->
     <main>
+      <div class="container">
+        <!-- Dropdown Trigger -->
+        <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Pick a Country</a>
 
+        <!-- Dropdown Structure -->
+        <ul id='dropdown1' class='dropdown-content'>
+          <li ng-repeat="country in countries">{{country}}</li>
+        </ul>
+      </div>
     </main>
 
     <!-- Footer area  -->
-    <footer>
-
+    <footer class="blue darken-4 white-text">
+      <h6 class="center-align">&copy 2016 Copyright</h6>
     </footer>
   </body>
 </html>
