@@ -1,0 +1,34 @@
+{
+  "countries": [
+    [
+      name: "England",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "France",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Germany",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Italy",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Spain",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+  ],
+}
