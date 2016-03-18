@@ -1,0 +1,12 @@
+{
+  "tournaments": [
+    [
+      "UEFA European Championship",
+      "../img/euro2016.jpg"
+    ],
+    [
+      "UEFA Champions League",
+      "../img/uefaChampionsLeague.png"
+    ]
+  ]
+}
