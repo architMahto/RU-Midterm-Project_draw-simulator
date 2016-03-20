@@ -22,5 +22,14 @@
       this.name = name;
       this.imageURL = imageURL;
     }
+
+    var url1 = "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=UEFA_coefficient&rvprop=timestamp|user|comment|content";
+    var url2 = "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=UEFA_coefficient&rvprop=content";
+
+    $http.get("http://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=UEFA_coefficient&rvprop=timestamp|user|comment|content").then(successFunction);
+
+    function successFunction(response) {
+      console.log(response.data);
+    }
   }
 })();
