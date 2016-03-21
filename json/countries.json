@@ -1,7 +1,104 @@
 {
   "countries": [
     [
+      name: "Albania",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Andorra",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Armenia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Austria",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Azerbaijan",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Belarus",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Belgium",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Bosnia-Herzegovina",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Bulgaria",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Croatia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Cyprus",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Czech Republic",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Denmark",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
       name: "England",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Estonia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+
+    [
+      name: "Faroe Islands",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Finland",
       nationalCoefficient: ,
       countryCoefficient: ,
       clubs: []
@@ -13,7 +110,49 @@
       clubs: []
     ],
     [
+      name: "Georgia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
       name: "Germany",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Gibraltar",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Greece",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Hungary",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Iceland",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Republic of Ireland",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Israel",
       nationalCoefficient: ,
       countryCoefficient: ,
       clubs: []
@@ -25,10 +164,166 @@
       clubs: []
     ],
     [
+      name: "Kazakhstan",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Latvia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Lichtenstein",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Lithuania",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Luxembourg",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Macedonia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Malta",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Moldova",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Montenegro",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Netherlands",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Northern Ireland",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Norway",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Poland",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Portugal",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Romania",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Russia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "San Marino",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Scotland",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Serbia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Slovakia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Slovenia",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
       name: "Spain",
       nationalCoefficient: ,
       countryCoefficient: ,
       clubs: []
     ],
-  ],
+    [
+      name: "Sweden",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Switzerland",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Turkey",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Ukraine",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ],
+    [
+      name: "Wales",
+      nationalCoefficient: ,
+      countryCoefficient: ,
+      clubs: []
+    ]
+  ]
 }
