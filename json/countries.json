@@ -2,220 +2,238 @@
   "countries": [
     [
       "Albania",
-      []
+      "../img/flags/albaniaFlag.svg"
     ],
     [
       "Andorra",
-      []
+      "../img/flags/andorraFlag.svg"
     ],
     [
       "Armenia",
-      []
+      "../img/flags/armeniaFlag.svg"
     ],
     [
       "Austria",
-      []
+      "../img/flags/austriaFlag.svg"
     ],
     [
       "Azerbaijan",
-      []
+      "../img/flags/azerbaijanFlag.svg"
     ],
     [
       "Belarus",
-      []
+      "../img/flags/belarusFlag.svg"
     ],
     [
       "Belgium",
-      []
+      "../img/flags/belgiumFlag.svg"
     ],
     [
       "Bosnia-Herzegovina",
-      []
+      "../img/flags/bosniaFlag.svg"
     ],
     [
       "Bulgaria",
-      []
+      "../img/flags/bulgariaFlag.svg"
     ],
     [
       "Croatia",
-      []
+      "../img/flags/croatiaFlag.svg"
     ],
     [
       "Cyprus",
-      []
+      "../img/flags/cyprusFlag.svg"
     ],
     [
       "Czech Republic",
-      []
+      "../img/flags/czechRepublicFlag.svg"
     ],
     [
       "Denmark",
-      []
+      "../img/flags/denmarkFlag.svg"
     ],
     [
       "England",
-      []
+      "../img/flags/englandFlag.svg"
     ],
     [
       "Estonia",
-      []
+      "../img/flags/estoniaFlag.svg"
     ],
 
     [
       "Faroe Islands",
-      []
+      "../img/flags/faroeIslandsFlag.svg"
     ],
     [
       "Finland",
-      []
+      "../img/flags/finlandFlag.svg"
     ],
     [
       "France",
-      []
+      "../img/flags/franceFlag.svg"
     ],
     [
       "Georgia",
-      []
+      "../img/flags/georgiaFlag.svg"
     ],
     [
       "Germany",
-      []
+      "../img/flags/germanyFlag.svg"
     ],
     [
       "Gibraltar",
-      []
+      "../img/flags/gibraltarFlag.svg"
     ],
     [
       "Greece",
-      []
+      "../img/flags/greeceFlag.svg"
     ],
     [
       "Hungary",
-      []
+      "../img/flags/hungaryFlag.svg"
     ],
     [
       "Iceland",
-      []
+      "../img/flags/icelandFlag.svg"
     ],
     [
       "Republic of Ireland",
-      []
+      "../img/flags/irelandFlag.svg"
     ],
     [
       "Israel",
-      []
+      "../img/flags/israelFlag.svg"
     ],
     [
       "Italy",
-      []
+      "../img/flags/italyFlag.svg"
     ],
     [
       "Kazakhstan",
-      []
+      "../img/flags/kazakhstanFlag.svg"
     ],
     [
       "Latvia",
-      []
+      "../img/flags/latviaFlag.svg"
     ],
     [
-      "Lichtenstein",
-      []
+      "Liechtenstein",
+      "../img/flags/liechtensteinFlag.svg"
     ],
     [
       "Lithuania",
-      []
+      "../img/flags/lithuaniaFlag.svg"
     ],
     [
       "Luxembourg",
-      []
+      "../img/flags/luxembourgFlag.svg"
     ],
     [
       "Macedonia",
-      []
+      "../img/flags/macedoniaFlag.svg"
     ],
     [
       "Malta",
-      []
+      "../img/flags/maltaFlag.svg"
     ],
     [
       "Moldova",
-      []
+      "../img/flags/moldovaFlag.svg"
     ],
     [
       "Montenegro",
-      []
+      "../img/flags/montenegroFlag.svg"
     ],
     [
       "Netherlands",
-      []
+      "../img/flags/netherlandsFlag.svg"
     ],
     [
       "Northern Ireland",
-      []
+      "../img/flags/northernIrelandFlag.png"
     ],
     [
       "Norway",
-      []
+      "../img/flags/norwayFlag.svg"
     ],
     [
       "Poland",
-      []
+      "../img/flags/polandFlag.svg"
     ],
     [
       "Portugal",
-      []
+      "../img/flags/portugalFlag.svg"
     ],
     [
       "Romania",
-      []
+      "../img/flags/romaniaFlag.svg"
     ],
     [
       "Russia",
-      []
+      "../img/flags/russiaFlag.svg"
     ],
     [
       "San Marino",
-      []
+      "../img/flags/sanMarinoFlag.svg"
     ],
     [
       "Scotland",
-      []
+      "../img/flags/scotlandFlag.svg"
     ],
     [
       "Serbia",
-      []
+      "../img/flags/serbiaFlag.svg"
     ],
     [
       "Slovakia",
-      []
+      "../img/flags/slovakiaFlag.svg"
     ],
     [
       "Slovenia",
-      []
+      "../img/flags/sloveniaFlag.svg"
     ],
     [
       "Spain",
-      []
+      "../img/flags/spainFlag.svg"
     ],
     [
       "Sweden",
-      []
+      "../img/flags/swedenFlag.svg"
     ],
     [
       "Switzerland",
-      []
+      "../img/flags/switzerlandFlag.gif"
     ],
     [
       "Turkey",
-      []
+      "../img/flags/turkeyFlag.svg"
     ],
     [
       "Ukraine",
-      []
+      "../img/flags/ukraineFlag.svg"
     ],
     [
       "Wales",
-      []
+      "../img/flags/walesFlag.svg"
+    ]
+  ],
+  "clubs": [
+    [
+      [
+        "AFC Bournemouth"
+      ],
+      [
+        "Arsenal"
+      ]
+    ],
+    [
+      [
+        "Athletic Bilbao"
+      ],
+      [
+        "Atlético Madrid"
+      ]
     ]
   ]
 }

@@ -12,12 +12,17 @@
     $http.get("../json/countries.json").then(getCountries);
 
     function getCountries(response) {
-      console.log(response);
+      // console.log(response.data);
+      console.log(response.data);
+      response.data.countries.forEach(function(element) {
+        selectCtrl.countries.push(new Country(element[0], element[1]));
+      });
+      console.log(selectCtrl.countries);
     }
 
-    function Country(name, clubs) {
+    function Country(name, imageURL) {
       this.name = name;
-      this.clubs = clubs;
+      this.imageURL = imageURL;
     }
   }
 })();

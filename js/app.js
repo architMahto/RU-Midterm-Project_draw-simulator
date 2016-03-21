@@ -10,7 +10,12 @@
         url: '/',
         templateUrl: '../views/tournamentSelector.html',
         controller: 'tournamentController'
-      });
+      })
+      .state('teamSelector', {
+        url: '/selectTeams',
+        templateUrl: '../views/teamSelector.html',
+        controller: 'selectController'
+      })
       $urlRouterProvider.otherwise('/');
   }
 })();
