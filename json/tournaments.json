@@ -2,10 +2,12 @@
   "tournaments": [
     [
       "UEFA European Championship",
+      "national",
       "../img/euro2016.jpg"
     ],
     [
       "UEFA Champions League",
+      "club",
       "../img/uefaChampionsLeague.png"
     ]
   ]

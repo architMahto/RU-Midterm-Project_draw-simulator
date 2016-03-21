@@ -1,0 +1,39 @@
+  <div class="container" ng-controller="tournamentController as tournamentCtrl">
+    <h2 class="center">Select a Tournament</h2>
+    <div class="row blue-grey lighten-5 center">
+      <br />
+      <div class="container">
+        <div class="row">
+          <img class="responsive-img" src={{tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].imageURL}} />
+        </div>
+
+        <div class="row grey darken-4 grey-text text-lighten-2 center">
+          <div class="col s2">
+            <h5><i class="fa fa-arrow-left waves-effect waves-light" ng-click="tournamentCtrl.moveFederationLeft()"></i></h5>
+          </div>
+          <div class="col s8">
+            <h5>{{tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].federation}}</h5>
+          </div>
+          <div class="col s2">
+            <h5><i class="fa fa-arrow-right waves-effect waves-light" ng-click="tournamentCtrl.moveFederationRight()"></i></h5>
+          </div>
+        </div>
+
+        <div class="row grey darken-4 grey-text text-lighten-2 center">
+          <div class="col s2">
+            <h5><i class="fa fa-arrow-left waves-effect waves-light" ng-click="tournamentCtrl.moveTournamentLeft()"></i></h5>
+          </div>
+          <div class="col s8">
+            <h5>{{tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].name}}</h5>
+          </div>
+          <div class="col s2">
+            <h5><i class="fa fa-arrow-right waves-effect waves-light" ng-click="tournamentCtrl.moveTournamentRight()"></i></h5>
+          </div>
+        </div>
+
+        <div class="row">
+          <a class="waves-effect waves-light btn-large grey darken-4">SELECT</a>
+        </div>
+      </div>
+    </div>
+  </div>
