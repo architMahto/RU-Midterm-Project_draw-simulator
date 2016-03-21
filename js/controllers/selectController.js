@@ -1,13 +1,13 @@
 ;(function() {
   'use strict';
 
-  angular.module('drawControllers', [])
-    .controller('drawController', drawController)
+  angular.module('selectControllers', [])
+    .controller('selectController', selectController)
 
   // Controller Callback
-  function drawController($http) {
-    var drawCtrl = this;
-    drawCtrl.countries = [];
+  function selectController($http) {
+    var selectCtrl = this;
+    selectCtrl.countries = [];
 
     $http.get("../json/countries.json").then(getCountries);
 

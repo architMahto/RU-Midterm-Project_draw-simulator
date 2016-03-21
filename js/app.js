@@ -1,7 +1,7 @@
 (function() {
   'use strict'
 
-  angular.module('drawApp', ['tournamentControllers', 'drawControllers', 'ui.router'])
+  angular.module('drawApp', ['tournamentControllers', 'selectControllers', 'ui.router'])
     .config(mainRouter);
 
   function mainRouter($stateProvider, $urlRouterProvider) {
