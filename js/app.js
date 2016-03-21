@@ -8,7 +8,7 @@
     $stateProvider
       .state('tournamentSelector', {
         url: '/',
-        templateUrl: '../tournamentSelector.html',
+        templateUrl: '../views/tournamentSelector.html',
         controller: 'tournamentController'
       });
       $urlRouterProvider.otherwise('/');
