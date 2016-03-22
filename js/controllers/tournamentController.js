@@ -80,5 +80,7 @@
         tournamentCtrl.currentTournament += 1;
       }
     }
+
+    
   }
 })();

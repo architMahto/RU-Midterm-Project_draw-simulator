@@ -10,12 +10,15 @@
     selectCtrl.countries = [];
     // status variables for tournament type
     selectCtrl.international = true;
-    selectCtrl.club = true;
+    selectCtrl.club = false;
     // traversal variables for selection traversal
     selectCtrl.currentCountry = 0;
     selectCtrl.currentClub = 0;
     // list of teams in tournament
     selectCtrl.tournamentTeams = [];
+    // variables to obtain country name and club name
+    // selectCtrl.countryName = "";
+    // selectCtrl.clubName = "";
 
     /* Make call to consume countries.json API*/
     $http.get("../json/countries.json").then(getCountries);
@@ -34,7 +37,7 @@
         });
       }
 
-      console.log(selectCtrl.countries);
+      // console.log(selectCtrl.countries);
     }
 
     // Country constructor function
@@ -89,6 +92,10 @@
       }
     }
 
-    /* Functionality to add teams to tournament */ 
+    /* Functionality to add teams to tournament */
+    selectCtrl.addTeamToTournament = function (country, club) {
+       console.log(country);
+       console.log(club);
+    }
   }
 })();

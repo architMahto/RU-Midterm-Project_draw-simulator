@@ -13,7 +13,9 @@
             <h5><i class="fa fa-arrow-left waves-effect waves-light" ng-click="selectCtrl.moveCountryLeft()"></i></h5>
           </div>
           <div class="col s8">
-            <h5>{{selectCtrl.countries[selectCtrl.currentCountry].name}}</h5>
+            <h5>
+              {{selectCtrl.countries[selectCtrl.currentCountry].name}}
+            </h5>
           </div>
           <div class="col s2">
             <h5><i class="fa fa-arrow-right waves-effect waves-light" ng-click="selectCtrl.moveCountryRight()"></i></h5>
@@ -25,7 +27,9 @@
             <h5><i class="fa fa-arrow-left waves-effect waves-light" ng-click="selectCtrl.moveClubLeft()"></i></h5>
           </div>
           <div class="col s8">
-            <h5>{{selectCtrl.countries[selectCtrl.currentCountry].clubs[selectCtrl.currentClub].name}}</h5>
+            <h5>
+              {{selectCtrl.countries[selectCtrl.currentCountry].clubs[selectCtrl.currentClub].name}}
+            </h5>
           </div>
           <div class="col s2">
             <h5><i class="fa fa-arrow-right waves-effect waves-light" ng-click="selectCtrl.moveClubRight()"></i></h5>
@@ -33,7 +37,9 @@
         </div>
 
         <div class="row">
-          <a ui-sref="teamSelector" class="waves-effect waves-light btn-large grey darken-4">ENTER TEAM</a>
+          <a ui-sref="teamSelector" class="waves-effect waves-light btn-large grey darken-4" ng-click="selectCtrl.addTeamToTournament(selectCtrl.countries[selectCtrl.currentCountry], selectCtrl.countries[selectCtrl.currentCountry].clubs[selectCtrl.currentClub])">
+            ENTER TEAM
+          </a>
         </div>
       </div>
     </div>
@@ -50,16 +56,8 @@
 
         <tbody>
           <tr>
-            <td>Alvin</td>
+            <td>1</td>
             <td>Eclair</td>
-          </tr>
-          <tr>
-            <td>Alan</td>
-            <td>Jellybean</td>
-          </tr>
-          <tr>
-            <td>Jonathan</td>
-            <td>Lollipop</td>
           </tr>
         </tbody>
       </table>
