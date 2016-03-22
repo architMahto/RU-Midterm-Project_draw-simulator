@@ -2526,7 +2526,646 @@
       ]
     ],
     [
-
+      [
+        "S.P. Cailungo",
+        "Borgo Maggiore"
+      ],
+      [
+        "S.S. Cosmos",
+        "Serravalle"
+      ],
+      [
+        "F.C. Domagnano",
+        "Domagnano"
+      ],
+      [
+        "S.C. Faetano",
+        "Faetano"
+      ],
+      [
+        "F.C. Fiorentino",
+        "Fiorentino"
+      ],
+      [
+        "S.S. Folgore Falciano Calcio",
+        "Serravalle"
+      ],
+      [
+        "A.C. Juvenes/Dogana",
+        "Serravalle"
+      ],
+      [
+        "S.P. La Fiorita",
+        "Montegiardino"
+      ],
+      [
+        "A.C. Libertas",
+        "Borgo Maggiore"
+      ],
+      [
+        "S.S. Murata",
+        "San Marino"
+      ],
+      [
+        "S.S. Pennarossa",
+        "Chiesanuova"
+      ],
+      [
+        "S.S. San Giovanni",
+        "Borgo Maggiore"
+      ],
+      [
+        "S.P. Tre Fiori",
+        "Fiorentino"
+      ],
+      [
+        "S.P. Tre Penne",
+        "Serravalle"
+      ],
+      [
+        "S.S. Virtus",
+        "Acquaviva"
+      ]
+    ],
+    [
+      [
+        "Aberdeen F.C.",
+        "Aberdeen"
+      ],
+      [
+        "Celtic F.C.",
+        "Glasgow"
+      ],
+      [
+        "Dundee F.C.",
+        "Dundee"
+      ],
+      [
+        "Dundee United F.C.",
+        "Dundee"
+      ],
+      [
+        "Hamilton Academical F.C.",
+        "Hamilton"
+      ],
+      [
+        "Heart of Midlothian F.C.",
+        ""
+      ],
+      [
+        "Inverness Caledonian Thistle F.C.",
+        "Inverness"
+      ],
+      [
+        "Kilmarnock F.C.",
+        "Kilmarnock"
+      ],
+      [
+        "Motherwell F.C.",
+        "Motherwell"
+      ],
+      [
+        "Partick Thistle F.C.",
+        "Glasgow"
+      ],
+      [
+        "Ross County F.C.",
+        "Dingwall"
+      ],
+      [
+        "St Johnstone F.C.",
+        "Perth"
+      ]
+    ],
+    [
+      [
+        "FK Borac Čačak",
+        "Čačak"
+      ],
+      [
+        "Red Star Belgrade",
+        "Belgrade"
+      ],
+      [
+        "FK Jagodina",
+        "Jagodina"
+      ],
+      [
+        "FK Javor Ivanjica",
+        "Ivanjica"
+      ],
+      [
+        "FK Metalac Gornji Milanovac",
+        "Gornji Milanovac"
+      ],
+      [
+        "FK Mladost Lučani",
+        "Lučani"
+      ],
+      [
+        "FK Novi Pazar",
+        "Novi Pazar"
+      ],
+      [
+        "FK Partizan",
+        "Belgrade"
+      ],
+      [
+        "FK Rad",
+        "Belgrade"
+      ],
+      [
+        "FK Radnik Surdulica",
+        "Surdulica"
+      ],
+      [
+        "FK Radnički Niš",
+        "Niš"
+      ],
+      [
+        "FK Spartak Subotica",
+        "Subotica"
+      ],
+      [
+        "FK Vojvodina",
+        "Novi Sad"
+      ],
+      [
+        "FK Voždovac",
+        "Belgrade"
+      ],
+      [
+        "FK Čukarički",
+        "Belgrade"
+      ],
+      [
+        "OFK Beograd",
+        "Belgrade"
+      ]
+    ],
+    [
+      [
+        "AS Trenčín",
+        "Trenčín"
+      ],
+      [
+        "FC DAC 1904 Dunajská Streda",
+        "Dunajská Streda"
+      ],
+      [
+        "FO ŽP Šport Podbrezová",
+        "Podbrezová"
+      ],
+      [
+        "FK Senica",
+        "Senica"
+      ],
+      [
+        "MFK Zemplín Michalovce",
+        "Michalovce"
+      ],
+      [
+        "MFK Ružomberok",
+        "Ružomberok"
+      ],
+      [
+        "MFK Skalica",
+        "Skalica"
+      ],
+      [
+        "MŠK Žilina",
+        "Žilina"
+      ],
+      [
+        "ŠK Slovan Bratislava",
+        "Bratislava"
+      ],
+      [
+        "Spartak Myjava",
+        "Myjava"
+      ],
+      [
+        "FC Spartak Trnava",
+        "Trnava"
+      ],
+      [
+        "FC ViOn Zlaté Moravce",
+        "Zlaté Moravce"
+      ]
+    ],
+    [
+      [
+        "FC Koper",
+        "Koper"
+      ],
+      [
+        "ND Gorica",
+        "Nova Gorica"
+      ],
+      [
+        "NK Celje",
+        "Celje"
+      ],
+      [
+        "NK Domžale",
+        "Domžale"
+      ],
+      [
+        "NK Krka",
+        "Novo Mesto"
+      ],
+      [
+        "NK Krško",
+        "Krško"
+      ],
+      [
+        "NK Maribor",
+        "Maribor"
+      ],
+      [
+        "NK Olimpija Ljubljana (2005)",
+        "Ljubljana"
+      ],
+      [
+        "NK Rudar Velenje",
+        "Velenje"
+      ],
+      [
+        "NK Zavrč",
+        "Zavrč"
+      ]
+    ],
+    [
+      [
+        "Athletic de Bilbao",
+        "Bilbao"
+      ],
+      [
+        "Atlético de Madrid",
+        "Madrid"
+      ],
+      [
+        "FC Barcelona",
+        "Barcelona"
+      ],
+      [
+        "Celta de Vigo",
+        "Vigo"
+      ],
+      [
+        "Deportivo de La Coruña",
+        "A Coruña"
+      ],
+      [
+        "SD Eibar",
+        "Eibar"
+      ],
+      [
+        "RCD Espanyol",
+        "Barcelona"
+      ],
+      [
+        "Getafe CF",
+        "Getafe"
+      ],
+      [
+        "Granada CF",
+        "Granada"
+      ],
+      [
+        "UD Las Palmas",
+        "Las Palmas"
+      ],
+      [
+        "Levante UD",
+        "Valencia"
+      ],
+      [
+        "Málaga CF",
+        "Málaga"
+      ],
+      [
+        "Rayo Vallecano",
+        "Madrid"
+      ],
+      [
+        "Real Betis",
+        "Seville"
+      ],
+      [
+        "Real Madrid C.F.",
+        "Madrid"
+      ],
+      [
+        "Real Sociedad",
+        "San Sebastián"
+      ],
+      [
+        "Sevilla FC",
+        "Seville"
+      ],
+      [
+        "Sporting de Gijón",
+        "Gijón"
+      ],
+      [
+        "Valencia CF",
+        "Valencia"
+      ],
+      [
+        "Villarreal CF",
+        "Villarreal"
+      ]
+    ],
+    [
+      [
+        "AIK Fotboll",
+        "Stockholm"
+      ],
+      [
+        "BK Häcken",
+        "Gothenburg"
+      ],
+      [
+        "Djurgårdens IF Fotboll",
+        "Stockholm"
+      ],
+      [
+        "Falkenbergs FF",
+        "Falkenberg"
+      ],
+      [
+        "Gefle IF",
+        "Gävle"
+      ],
+      [
+        "GIF Sundsvall",
+        "Sundsvall"
+      ],
+      [
+        "Halmstads BK",
+        "Halmstad"
+      ],
+      [
+        "Hammarby Fotboll",
+        "Stockholm"
+      ],
+      [
+        "Helsingborgs IF",
+        "Helsingborg"
+      ],
+      [
+        "IF Elfsborg",
+        "Borås"
+      ],
+      [
+        "IFK Göteborg",
+        "Gothenburg"
+      ],
+      [
+        "IFK Norrköping",
+        "Norrköping"
+      ],
+      [
+        "Kalmar FF",
+        "Kalmar"
+      ],
+      [
+        "Malmö FF",
+        "Malmö"
+      ],
+      [
+        "Åtvidabergs FF",
+        "Åtvidaberg"
+      ],
+      [
+        "Örebro SK",
+        "Örebro"
+      ]
+    ],
+    [
+      [
+        "FC Basel 1893",
+        "Basel"
+      ],
+      [
+        "Grasshopper Club Zürich",
+        "Zürich"
+      ],
+      [
+        "FC Luzern",
+        "Lucerne"
+      ],
+      [
+        "FC Lugano",
+        "Lugano"
+      ],
+      [
+        "FC Sion",
+        "Sion"
+      ],
+      [
+        "FC St. Gallen 1879",
+        "St. Gallen"
+      ],
+      [
+        "FC Thun 1898",
+        "Thun"
+      ],
+      [
+        "FC Vaduz",
+        "Vaduz"
+      ],
+      [
+        "BSC Young Boys",
+        "Bern"
+      ],
+      [
+        "FC Zürich",
+        "Zürich"
+      ]
+    ],
+    [
+      [
+        "Akhisar Belediyespor",
+        "Manisa"
+      ],
+      [
+        "Antalyaspor",
+        "Antalya"
+      ],
+      [
+        "Beşiktaş J.K.",
+        "İstanbul"
+      ],
+      [
+        "Bursaspor",
+        "Bursa"
+      ],
+      [
+        "Eskişehirspor",
+        "Eskişehir"
+      ],
+      [
+        "Fenerbahçe S.K.",
+        "İstanbul"
+      ],
+      [
+        "Galatasaray S.K.",
+        "İstanbul"
+      ],
+      [
+        "Gaziantepspor",
+        "Gaziantep"
+      ],
+      [
+        "Gençlerbirliği S.K.",
+        "Ankara"
+      ],
+      [
+        "İstanbul Başakşehir F.K.",
+        "İstanbul"
+      ],
+      [
+        "Kasımpaşa S.K.",
+        "İstanbul"
+      ],
+      [
+        "Kayserispor",
+        "Kayseri"
+      ],
+      [
+        "Mersin İdmanyurdu",
+        "Mersin"
+      ],
+      [
+        "Osmanlıspor",
+        "Ankara"
+      ],
+      [
+        "Sivasspor",
+        "Sivas"
+      ],
+      [
+        "Torku Konyaspor",
+        "Konya"
+      ],
+      [
+        "Trabzonspor",
+        "Trabzon"
+      ],
+      [
+        "Çaykur Rizespor",
+        "Rize"
+      ]
+    ],
+    [
+      [
+        "FC Chornomorets Odesa",
+        "Odesa"
+      ],
+      [
+        "FC Dnipro Dnipropetrovsk",
+        "Dnipropetrovsk"
+      ],
+      [
+        "FC Dynamo Kyiv",
+        "Kiev"
+      ],
+      [
+        "FC Hoverla Uzhhorod",
+        "Uzhhorod"
+      ],
+      [
+        "FC Karpaty Lviv",
+        "Lviv"
+      ],
+      [
+        "FC Metalist Kharkiv",
+        "Kharkiv"
+      ],
+      [
+        "FC Metalurh Zaporizhya",
+        "Zaporizhya"
+      ],
+      [
+        "FC Oleksandriya",
+        "Oleksandriya"
+      ],
+      [
+        "FC Olimpik Donetsk",
+        "Donetsk"
+      ],
+      [
+        "FC Shakhtar Donetsk",
+        "Donetsk"
+      ],
+      [
+        "FC Stal Dniprodzerzhynsk",
+        "Dniprodzerzhynsk"
+      ],
+      [
+        "FC Volyn Lutsk",
+        "Lutsk"
+      ],
+      [
+        "FC Vorskla Poltava",
+        "Poltava"
+      ],
+      [
+        "FC Zorya Luhansk",
+        "Luhansk"
+      ]
+    ],
+    [
+      [
+        "Aberystwyth Town F.C.",
+        "Aberystwyth"
+      ],
+      [
+        "Airbus UK Broughton F.C.",
+        "Broughton"
+      ],
+      [
+        "Bala Town F.C.",
+        "Bala"
+      ],
+      [
+        "Bangor City F.C.",
+        "Bangor"
+      ],
+      [
+        "Carmarthen Town A.F.C.",
+        "Carmarthen"
+      ],
+      [
+        "Connah's Quay Nomads F.C.",
+        "Connah's Quay"
+      ],
+      [
+        "Haverfordwest County A.F.C.",
+        "Haverfordwest"
+      ],
+      [
+        "Llandudno F.C.",
+        "Llandudno"
+      ],
+      [
+        "Newtown A.F.C.",
+        "Newtown"
+      ],
+      [
+        "Port Talbot Town F.C.",
+        "Port Talbot"
+      ],
+      [
+        "Rhyl F.C.",
+        "Rhyl"
+      ],
+      [
+        "The New Saints F.C.",
+        "Oswestry"
+      ]
     ]
   ]
 }

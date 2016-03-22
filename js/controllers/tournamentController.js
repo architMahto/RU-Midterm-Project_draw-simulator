@@ -8,6 +8,7 @@
   function tournamentController($http) {
     var tournamentCtrl = this;
 
+    // 2D array of tournament objects
     tournamentCtrl.tournaments = [
       [
         {
@@ -32,7 +33,7 @@
       [
         {
           name: "FIFA World Cup",
-          federation: "International",
+          federation: "FIFA",
           imageURL: "../../img/fifaWorldCup2018.png",
           category: "national"
         }
@@ -79,14 +80,5 @@
         tournamentCtrl.currentTournament += 1;
       }
     }
-
-    // var url1 = "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=UEFA_coefficient&rvprop=timestamp|user|comment|content";
-    // var url2 = "http://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=UEFA_coefficient&rvprop=content";
-    //
-    // $http.get("http://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=UEFA_coefficient&rvprop=timestamp|user|comment|content").then(successFunction);
-    //
-    // function successFunction(response) {
-    //   console.log(response.data);
-    // }
   }
 })();
