@@ -17,13 +17,13 @@
         selectCtrl.countries.push(new Country(element[0], element[1]));
       });
 
-      // for (var i = 0; i < response.data.clubs.length; i++) {
-      //   response.data.clubs[i].forEach(function(element) {
-      //     selectCtrl.countries[i].clubs.push(new Club(element[0], element[1], selectCtrl.countries[i].name));
-      //   });
-      // }
+      for (var i = 0; i < response.data.clubs.length; i++) {
+        response.data.clubs[i].forEach(function(element) {
+          selectCtrl.countries[i].clubs.push(new Club(element[0], element[1], selectCtrl.countries[i].name));
+        });
+      }
 
-      // console.log(selectCtrl.countries);
+      console.log(selectCtrl.countries);
     }
 
     // Country constructor function

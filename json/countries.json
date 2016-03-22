@@ -431,20 +431,12 @@
         "Minsk"
       ],
       [
-        "FC Gorodeya",
-        "Haradzeya"
+        "FC Gomel",
+        "Gomel"
       ],
       [
         "FC Granit Mikashevichi",
         "Mikashevichy"
-      ],
-      [
-        "FC Isloch Minsk Raion",
-        "Minsk"
-      ],
-      [
-        "FC Krumkachy Minsk",
-        "Minsk"
       ],
       [
         "FC Minsk",
@@ -651,6 +643,1058 @@
       [
         "PFC Slavia Sofia",
         "Sofia"
+      ]
+    ],
+    [
+      [
+        "GNK Dinamo Zagreb",
+        "Zagreb"
+      ],
+      [
+        "HNK Hajduk Split",
+        "Split"
+      ],
+      [
+        "NK Inter Zaprešić",
+        "Zaprešić"
+      ],
+      [
+        "NK Istra 1961",
+        "Pula"
+      ],
+      [
+        "NK Lokomotiva",
+        "Zagreb"
+      ],
+      [
+        "NK Zagreb",
+        "Zagreb"
+      ],
+      [
+        "NK Osijek",
+        "Osijek"
+      ],
+      [
+        "HNK Rijeka",
+        "Rijeka"
+      ],
+      [
+        "RNK Split",
+        "Split"
+      ],
+      [
+        "NK Slaven Belupo",
+        "Koprivnica"
+      ]
+    ],
+    [
+      [
+        "AEK Larnaca F.C.",
+        "Larnaca"
+      ],
+      [
+        "AEL Limassol",
+        "Limassol"
+      ],
+      [
+        "Anorthosis Famagusta FC",
+        "Larnaca"
+      ],
+      [
+        "APOEL FC",
+        "Nicosia"
+      ],
+      [
+        "Apollon Limassol",
+        "Limassol"
+      ],
+      [
+        "Aris Limassol F.C.",
+        "Limassol"
+      ],
+      [
+        "Ayia Napa F.C.",
+        "Ayia Napa"
+      ],
+      [
+        "Doxa Katokopias F.C.",
+        "Peristerona"
+      ],
+      [
+        "Enosis Neon Paralimni FC",
+        "Paralimni"
+      ],
+      [
+        "Ermis Aradippou",
+        "Aradippou"
+      ],
+      [
+        "Ethnikos Achna FC",
+        "Achna"
+      ],
+      [
+        "Nea Salamis Famagusta FC",
+        "Larnaca"
+      ],
+      [
+        "AC Omonia",
+        "Nicosia"
+      ],
+      [
+        "Pafos FC",
+        "Paphos"
+      ]
+    ],
+    [
+      [
+        "FC Baník Ostrava",
+        "Ostrava"
+      ],
+      [
+        "Bohemians 1905",
+        "Prague"
+      ],
+      [
+        "FK Dukla Prague",
+        "Prague"
+      ],
+      [
+        "FC Fastav Zlín",
+        "Zlín"
+      ],
+      [
+        "FK Jablonec",
+        "Jablonec nad Nisou"
+      ],
+      [
+        "FC Vysočina Jihlava",
+        "Jihlava"
+      ],
+      [
+        "FK Mladá Boleslav",
+        "Mladá Boleslav"
+      ],
+      [
+        "1. FK Příbram",
+        "Příbram"
+      ],
+      [
+        "SK Sigma Olomouc",
+        "Olomouc"
+      ],
+      [
+        "SK Slavia Prague",
+        "Prague"
+      ],
+      [
+        "1. FC Slovácko",
+        "Uherské Hradiště"
+      ],
+      [
+        "FC Slovan Liberec",
+        "Liberec"
+      ],
+      [
+        "AC Sparta Prague",
+        "Prague"
+      ],
+      [
+        "FK Teplice",
+        "Teplice"
+      ],
+      [
+        "FC Viktoria Plzeň",
+        "Plzeň"
+      ],
+      [
+        "FC Zbrojovka Brno",
+        "Brno"
+      ]
+    ],
+    [
+      [
+        "AaB Fodbold",
+        "Aalborg"
+      ],
+      [
+        "Aarhus Gymnastikforening",
+        "Aarhus"
+      ],
+      [
+        "Brøndby IF",
+        "Brøndby"
+      ],
+      [
+        "Esbjerg fB",
+        "Esbjerg"
+      ],
+      [
+        "F.C. Copenhagen",
+        "Copenhagen"
+      ],
+      [
+        "FC Midtjylland",
+        "Herning"
+      ],
+      [
+        "FC Nordsjælland",
+        "Farum"
+      ],
+      [
+        "Hobro IK",
+        "Hobro"
+      ],
+      [
+        "Odense Boldklub",
+        "Odense"
+      ],
+      [
+        "Randers FC",
+        "Randers"
+      ],
+      [
+        "SønderjyskE Fodbold",
+        "Haderslev"
+      ],
+      [
+        "Viborg FF",
+        "Viborg"
+      ]
+    ],
+    [
+      [
+        "A.F.C. Bournemouth",
+        "Bournemouth"
+      ],
+      [
+        "Arsenal F.C.",
+        "London"
+      ],
+      [
+        "Aston Villa F.C.",
+        "Birmingham"
+      ],
+      [
+        "Chelsea F.C.",
+        "London"
+      ],
+      [
+        "Crystal Palace F.C.",
+        "London"
+      ],
+      [
+        "Everton F.C.",
+        "Liverpool"
+      ],
+      [
+        "Leicester City F.C.",
+        "Leicester"
+      ],
+      [
+        "Liverpool F.C.",
+        "Liverpool"
+      ],
+      [
+        "Manchester City F.C.",
+        "Manchester"
+      ],
+      [
+        "Manchester United F.C.",
+        "Manchester"
+      ],
+      [
+        "Newcastle United F.C.",
+        "Newcastle upon Tyne"
+      ],
+      [
+        "Norwich City F.C.",
+        "Norwich"
+      ],
+      [
+        "Southampton F.C.",
+        "Southampton"
+      ],
+      [
+        "Stoke City F.C.",
+        "Stoke-on-Trent"
+      ],
+      [
+        "Sunderland A.F.C.",
+        "Sunderland"
+      ],
+      [
+        "Swansea City A.F.C.",
+        "Swansea"
+      ],
+      [
+        "Tottenham Hotspur F.C.",
+        "London"
+      ],
+      [
+        "Watford F.C.",
+        "Watford"
+      ],
+      [
+        "West Bromwich Albion F.C.",
+        "West Bromwich"
+      ],
+      [
+        "West Ham United F.C.",
+        "London"
+      ]
+    ],
+    [
+      [
+        "FC Flora",
+        "Tallinn"
+      ],
+      [
+        "FC Infonet",
+        "Tallinn"
+      ],
+      [
+        "FC Levadia Tallinn",
+        "Tallinn"
+      ],
+      [
+        "JK Narva Trans",
+        "Narva"
+      ],
+      [
+        "Nõmme Kalju FC",
+        "Tallinn"
+      ],
+      [
+        "Paide Linnameeskond",
+        "Paide"
+      ],
+      [
+        "Pärnu Linnameeskond",
+        "Pärnu"
+      ],
+      [
+        "JK Sillamäe Kalev",
+        "Sillamäe"
+      ],
+      [
+        "Tartu JK Tammeka",
+        "Tartu"
+      ],
+      [
+        "Viljandi JK Tulevik",
+        "Viljandi"
+      ]
+    ],
+    [
+      [
+        "Argja Bóltfelag",
+        "Argir"
+      ],
+      [
+        "B36 Tórshavn",
+        "Tórshavn"
+      ],
+      [
+        "EB/Streymur",
+        "Streymnes"
+      ],
+      [
+        "Havnar Bóltfelag",
+        "Tórshavn"
+      ],
+      [
+        "KÍ Klaksvík",
+        "Klaksvík"
+      ],
+      [
+        "NSÍ Runavík",
+        "Runavík"
+      ],
+      [
+        "FC Suðuroy",
+        "Vágur"
+      ],
+      [
+        "Tvøroyrar Bóltfelag",
+        "Tvøroyri"
+      ],
+      [
+        "Víkingur Gøta",
+        "Norðragøta"
+      ],
+      [
+        "ÍF Fuglafjørður",
+        "Fuglafjørður"
+      ]
+    ],
+    [
+      [
+        "FC Inter Turku",
+        "Turku"
+      ],
+      [
+        "FC Lahti",
+        "Lahti"
+      ],
+      [
+        "FF Jaro",
+        "Jakobstad"
+      ],
+      [
+        "HIFK Fotboll",
+        "Helsinki"
+      ],
+      [
+        "Helsingin Jalkapalloklubi",
+        "Helsinki"
+      ],
+      [
+        "IFK Mariehamn",
+        "Mariehamn"
+      ],
+      [
+        "FC Ilves",
+        "Tampere"
+      ],
+      [
+        "Kotkan Työväen Palloilijat",
+        "Kotka"
+      ],
+      [
+        "Kuopion Palloseura",
+        "Kuopio"
+      ],
+      [
+        "RoPS",
+        "Rovaniemi"
+      ],
+      [
+        "Seinäjoen Jalkapallokerho",
+        "Seinäjoki"
+      ],
+      [
+        "Vaasan Palloseura",
+        "Vaasa"
+      ]
+    ],
+    [
+      [
+        "Angers SCO",
+        "Angers"
+      ],
+      [
+        "SC Bastia",
+        "Bastia"
+      ],
+      [
+        "FC Girondins de Bordeaux",
+        "Bordeaux"
+      ],
+      [
+        "Stade Malherbe Caen",
+        "Caen"
+      ],
+      [
+        "Gazélec Ajaccio",
+        "Ajaccio"
+      ],
+      [
+        "En Avant de Guingamp",
+        "Guingamp"
+      ],
+      [
+        "Lille OSC",
+        "Lille"
+      ],
+      [
+        "FC Lorient",
+        "Lorient"
+      ],
+      [
+        "Olympique Lyonnais",
+        "Lyon"
+      ],
+      [
+        "Olympique de Marseille",
+        "Marseille"
+      ],
+      [
+        "AS Monaco FC",
+        "Monaco"
+      ],
+      [
+        "FC Nantes",
+        "Nantes"
+      ],
+      [
+        "Montpellier HSC",
+        "Montpellier"
+      ],
+      [
+        "OGC Nice",
+        "Nice"
+      ],
+      [
+        "Paris Saint-Germain F.C.",
+        "Paris"
+      ],
+      [
+        "Stade de Reims",
+        "Reims"
+      ],
+      [
+        "Stade Rennais F.C.",
+        "Rennes"
+      ],
+      [
+        "AS Saint-Étienne",
+        "Saint-Étienne"
+      ],
+      [
+        "Toulouse FC",
+        "Toulouse"
+      ],
+      [
+        "Troyes AC",
+        "Troyes"
+      ]
+    ],
+    [
+      [
+        "FC Chikhura Sachkhere",
+        "Sachkhere"
+      ],
+      [
+        "FC Dila Gori",
+        "Gori"
+      ],
+      [
+        "FC Dinamo Batumi",
+        "Kobuleti"
+      ],
+      [
+        "FC Dinamo Tbilisi",
+        "Tbilisi"
+      ],
+      [
+        "FC Guria Lanchkhuti",
+        "Lanchkhuti"
+      ],
+      [
+        "FC Kolkheti-1913 Poti",
+        "Poti"
+      ],
+      [
+        "FC Locomotive Tbilisi",
+        "Tbilisi"
+      ],
+      [
+        "FC Merani Martvili",
+        "Martvili"
+      ],
+      [
+        "FC Saburtalo Tbilisi",
+        "Tbilisi"
+      ],
+      [
+        "FC Samtredia",
+        "Samtredia"
+      ],
+      [
+        "FC Sapovnela Terjola",
+        "Terjola"
+      ],
+      [
+        "FC Shukura Kobuleti",
+        "Kobuleti"
+      ],
+      [
+        "FC Sioni Bolnisi",
+        "Bolnisi"
+      ],
+      [
+        "FC Torpedo Kutaisi",
+        "Kutaisi"
+      ],
+      [
+        "FC Tskhinvali",
+        "Tskhinvali"
+      ],
+      [
+        "FC Zugdidi",
+        "Zugdidi"
+      ]
+    ],
+    [
+      [
+        "FC Augsburg",
+        "Augsburg"
+      ],
+      [
+        "Bayer 04 Leverkusen",
+        "Leverkusen"
+      ],
+      [
+        "FC Bayern Munich",
+        "Munich"
+      ],
+      [
+        "Borussia Dortmund",
+        "Dortmund"
+      ],
+      [
+        "Borussia Mönchengladbach",
+        "Mönchengladbach"
+      ],
+      [
+        "SV Darmstadt 98",
+        "Darmstadt"
+      ],
+      [
+        "Eintracht Frankfurt",
+        "Frankfurt"
+      ],
+      [
+        "Hamburger SV",
+        "Hamburg"
+      ],
+      [
+        "Hannover 96",
+        "Hannover"
+      ],
+      [
+        "Hertha BSC",
+        "Berlin"
+      ],
+      [
+        "TSG 1899 Hoffenheim",
+        "Hoffenheim"
+      ],
+      [
+        "FC Ingolstadt 04",
+        "Ingolstadt"
+      ],
+      [
+        "1. FC Köln",
+        "Cologne"
+      ],
+      [
+        "1. FSV Mainz 05",
+        "Mainz"
+      ],
+      [
+        "FC Schalke 04",
+        "Gelsenkirchen"
+      ],
+      [
+        "VfB Stuttgart",
+        "Stuttgart"
+      ],
+      [
+        "SV Werder Bremen",
+        "Bremen"
+      ],
+      [
+        "VfL Wolfsburg",
+        "Wolfsburg"
+      ]
+    ],
+    [
+      [
+        "Angels F.C.",
+        "Gibraltar"
+      ],
+      [
+        "FC Britannia XI",
+        "Gibraltar"
+      ],
+      [
+        "Europa FC",
+        "Gibraltar"
+      ],
+      [
+        "Gibraltar United F.C.",
+        "Gibraltar"
+      ],
+      [
+        "Glacis United F.C.",
+        "Gibraltar"
+      ],
+      [
+        "Lincoln Red Imps F.C.",
+        "Gibraltar"
+      ],
+      [
+        "Lions Gibraltar F.C.",
+        "Gibraltar"
+      ],
+      [
+        "Lynx F.C.",
+        "Gibraltar"
+      ],
+      [
+        "Manchester 62 F.C.",
+        "Gibraltar"
+      ],
+      [
+        "St Joseph's F.C.",
+        "Gibraltar"
+      ]
+    ],
+    [
+      [
+        "AEK Athens F.C.",
+        "Athens"
+      ],
+      [
+        "Asteras Tripoli F.C.",
+        "Tripoli"
+      ],
+      [
+        "Atromitos F.C.",
+        "Athens"
+      ],
+      [
+        "Iraklis 1908 Thessaloniki F.C.",
+        "Thessaloniki"
+      ],
+      [
+        "AEL Kalloni F.C.",
+        "Mytilene"
+      ],
+      [
+        "Levadiakos F.C.",
+        "Livadeia"
+      ],
+      [
+        "Olympiacos F.C.",
+        "Piraeus"
+      ],
+      [
+        "Panathinaikos F.C.",
+        "Athens"
+      ],
+      [
+        "Panetolikos F.C.",
+        "Agrinio"
+      ],
+      [
+        "Panionios F.C.",
+        "Nea Smyrni"
+      ],
+      [
+        "Panthrakikos F.C.",
+        "Komotini"
+      ],
+      [
+        "PAOK FC",
+        "Thessaloniki"
+      ],
+      [
+        "PAS Giannina F.C.",
+        "Ioannina"
+      ],
+      [
+        "Platanias",
+        "Chania"
+      ],
+      [
+        "Skoda Xanthi F.C.",
+        "Xanthi"
+      ],
+      [
+        "Veria F.C.",
+        "Veria"
+      ]
+    ],
+    [
+      [
+        "Békéscsaba 1912 Előre",
+        "Békéscsaba"
+      ],
+      [
+        "Debreceni VSC",
+        "Debrecen"
+      ],
+      [
+        "Diósgyőri VTK",
+        "Miskolc"
+      ],
+      [
+        "Ferencvárosi TC",
+        "Budapest"
+      ],
+      [
+        "Szombathelyi Haladás",
+        "Szombathely"
+      ],
+      [
+        "Budapest Honvéd FC",
+        "Budapest"
+      ],
+      [
+        "MTK Budapest FC",
+        "Budapest"
+      ],
+      [
+        "Paksi FC",
+        "Paks"
+      ],
+      [
+        "Puskás Akadémia FC",
+        "Felcsút"
+      ],
+      [
+        "Vasas SC",
+        "Budapest"
+      ],
+      [
+        "Videoton FC",
+        "Székesfehérvár"
+      ],
+      [
+        "Újpest FC",
+        "Budapest"
+      ]
+    ],
+    [
+      [
+        "Breiðablik UBK",
+        "Kópavogur"
+      ],
+      [
+        "Fimleikafélag Hafnarfjarðar",
+        "Hafnarfjörður"
+      ],
+      [
+        "Ungmennafélagið Fjölnir",
+        "Reykjavík"
+      ],
+      [
+        "Fylkir",
+        "Reykjavík"
+      ],
+      [
+        "Knattspyrnudeild Keflavík",
+        "Keflavík"
+      ],
+      [
+        "Knattspyrnufélag Reykjavíkur",
+        "Reykjavík"
+      ],
+      [
+        "Leiknir Reykjavík",
+        "Reykjavík"
+      ],
+      [
+        "Ungmennafélagið Stjarnan",
+        "Garðabær"
+      ],
+      [
+        "Knattspyrnufélagið Valur",
+        "Reykjavík"
+      ],
+      [
+        "Knattspyrnufélagið Víkingur",
+        "Reykjavík"
+      ],
+      [
+        "Íþróttabandalag Akraness",
+        "Akranes"
+      ],
+      [
+        "Íþróttabandalag Vestmannaeyja",
+        "Vestmannaeyjar"
+      ]
+    ],
+    [
+      [
+        "Bohemian F.C.",
+        "Dublin"
+      ],
+      [
+        "Bray Wanderers F.C.",
+        "Bray"
+      ],
+      [
+        "Cork City F.C.",
+        "Cork"
+      ],
+      [
+        "Derry City F.C.",
+        "Derry"
+      ],
+      [
+        "Drogheda United F.C.",
+        "Drogheda"
+      ],
+      [
+        "Dundalk F.C.",
+        "Dundalk"
+      ],
+      [
+        "Galway United F.C.",
+        "Galway"
+      ],
+      [
+        "Limerick F.C.",
+        "Limerick"
+      ],
+      [
+        "Longford Town F.C.",
+        "Longford"
+      ],
+      [
+        "Shamrock Rovers F.C.",
+        "Dublin"
+      ],
+      [
+        "Sligo Rovers F.C.",
+        "Sligo"
+      ],
+      [
+        "St Patrick's Athletic F.C.",
+        "Dublin"
+      ]
+    ],
+    [
+      [
+        "Beitar Jerusalem F.C.",
+        "Jerusalem"
+      ],
+      [
+        "Bnei Yehuda Tel Aviv F.C.",
+        "Tel Aviv"
+      ],
+      [
+        "Bnei Sakhnin F.C.",
+        "Sakhnin"
+      ],
+      [
+        "Hapoel Acre F.C.",
+        "Acre"
+      ],
+      [
+        "Hapoel Be'er Sheva F.C.",
+        "Be'er Sheva"
+      ],
+      [
+        "Hapoel Haifa F.C.",
+        "Haifa"
+      ],
+      [
+        "Hapoel Kfar Saba F.C.",
+        "Kfar Saba"
+      ],
+      [
+        "Hapoel Ra'anana A.F.C.",
+        "Ra'anana"
+      ],
+      [
+        "Hapoel Tel Aviv F.C.",
+        "Tel Aviv"
+      ],
+      [
+        "Hapoel Ironi Kiryat Shmona F.C.",
+        "Kiryat Shmona"
+      ],
+      [
+        "Maccabi Haifa F.C.",
+        "Haifa"
+      ],
+      [
+        "Maccabi Netanya F.C.",
+        "Netanya"
+      ],
+      [
+        "Maccabi Petah Tikva F.C.",
+        "Petah Tikva"
+      ],
+      [
+        "Maccabi Tel Aviv F.C.",
+        "Tel Aviv"
+      ]
+    ],
+    [
+      [
+        "Atalanta B.C.",
+        "Bergamo"
+      ],
+      [
+        "Bologna F.C. 1909",
+        "Bologna"
+      ],
+      [
+        "Carpi F.C. 1909",
+        "Carpi"
+      ],
+      [
+        "A.C. Chievo Verona",
+        "Verona"
+      ],
+      [
+        "Empoli F.C.",
+        "Empoli"
+      ],
+      [
+        "ACF Fiorentina",
+        "Florence"
+      ],
+      [
+        "Frosinone Calcio",
+        "Frosinone"
+      ],
+      [
+        "Genoa C.F.C.",
+        "Genoa"
+      ],
+      [
+        "Hellas Verona F.C.",
+        "Verona"
+      ],
+      [
+        "F.C. Internazionale Milano",
+        "Milan"
+      ],
+      [
+        "Juventus F.C.",
+        "Turin"
+      ],
+      [
+        "S.S. Lazio",
+        "Rome"
+      ],
+      [
+        "A.C. Milan",
+        "Milan"
+      ],
+      [
+        "S.S.C. Napoli",
+        "Naples"
+      ],
+      [
+        "U.S. Città di Palermo",
+        "Palermo"
+      ],
+      [
+        "A.S. Roma",
+        "Rome"
+      ],
+      [
+        "U.C. Sampdoria",
+        "Genoa"
+      ],
+      [
+        "U.S. Sassuolo Calcio",
+        "Sassuolo"
+      ],
+      [
+        "Torino F.C.",
+        "Torino"
+      ],
+      [
+        "Udinese Calcio",
+        "Udinese"
       ]
     ]
   ]
