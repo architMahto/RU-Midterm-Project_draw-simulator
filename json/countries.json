@@ -221,18 +221,436 @@
   "clubs": [
     [
       [
-        "AFC Bournemouth"
+        "KF Bylis Ballsh",
+        "Ballsh"
       ],
       [
-        "Arsenal"
+        "FK Kukësi",
+        "Kukës"
+      ],
+      [
+        "Flamurtari Vlorë",
+        "Vlorë"
+      ],
+      [
+        "KF Laçi",
+        "Laç"
+      ],
+      [
+        "KF Tirana",
+        "Tiranë"
+      ],
+      [
+        "FK Partizani Tirana",
+        "Tiranë"
+      ],
+      [
+        "KF Skënderbeu Korçë",
+        "Korçë"
+      ],
+      [
+        "KF Teuta Durrës",
+        "Durrës"
+      ],
+      [
+        "KF Tërbuni Pukë",
+        "Pukë"
+      ],
+      [
+        "KF Vllaznia Shkodër",
+        "Shkodër"
       ]
     ],
     [
       [
-        "Athletic Bilbao"
+        "FC Encamp",
+        "Encamp"
       ],
       [
-        "Atlético Madrid"
+        "UE Engordany",
+        "Escaldes-Engordany"
+      ],
+      [
+        "FC Santa Coloma",
+        "Santa Coloma"
+      ],
+      [
+        "FC Lusitanos",
+        "Andorra la Vella"
+      ],
+      [
+        "FC Ordino",
+        "Ordino"
+      ],
+      [
+        "Penya Encarnada d'Andorra",
+        "Andorra la Vella"
+      ],
+      [
+        "UE Sant Julià",
+        "Sant Julià de Lòria"
+      ],
+      [
+        "UE Santa Coloma",
+        "Santa Coloma"
+      ]
+    ],
+    [
+      [
+        "Alashkert FC",
+        "Yerevan"
+      ],
+      [
+        "FC Ararat Yerevan",
+        "Yerevan"
+      ],
+      [
+        "FC Banants",
+        "Yerevan"
+      ],
+      [
+        "FC Gandzasar Kapan",
+        "Kapan"
+      ],
+      [
+        "FC Mika",
+        "Yerevan"
+      ],
+      [
+        "FC Pyunik",
+        "Yerevan"
+      ],
+      [
+        "FC Shirak",
+        "Gyumri"
+      ],
+      [
+        "Ulisses FC",
+        "Yerevan"
+      ]
+    ],
+    [
+      [
+        "FC Admira Wacker Mödling",
+        "Maria Enzersdorf"
+      ],
+      [
+        "FK Austria Wien",
+        "Vienna"
+      ],
+      [
+        "SV Grödig",
+        "Grödig"
+      ],
+      [
+        "SK Rapid Wien",
+        "Vienna"
+      ],
+      [
+        "FC Red Bull Salzburg",
+        "Wals-Siezenheim"
+      ],
+      [
+        "SC Rheindorf Altach",
+        "Altach"
+      ],
+      [
+        "SV Ried",
+        "Ried im Innkreis"
+      ],
+      [
+        "SK Sturm Graz",
+        "Graz"
+      ],
+      [
+        "SV Mattersburg",
+        "Mattersburg"
+      ],
+      [
+        "Wolfsberger AC",
+        "Wolfsberg"
+      ]
+    ],
+    [
+      [
+        "AZAL PFK",
+        "Baku"
+      ],
+      [
+        "Gabala SC",
+        "Gabala"
+      ],
+      [
+        "Inter Baku PIK",
+        "Baku"
+      ],
+      [
+        "Kapaz PFC",
+        "Ganja"
+      ],
+      [
+        "Khazar Lankaran FK",
+        "Lankaran"
+      ],
+      [
+        "Neftchi PFK",
+        "Baku"
+      ],
+      [
+        "Qarabağ FK",
+        "Baku"
+      ],
+      [
+        "Ravan Baku FK",
+        "Baku"
+      ],
+      [
+        "Sumgayit FK",
+        "Sumqayit"
+      ],
+      [
+        "Zira FK",
+        "Baku"
+      ]
+    ],
+    [
+      [
+        "FC BATE Borisov",
+        "Barysaw"
+      ],
+      [
+        "FC Belshina Bobruisk",
+        "Babruysk"
+      ],
+      [
+        "FC Dinamo Brest",
+        "Brest"
+      ],
+      [
+        "FC Dinamo Minsk",
+        "Minsk"
+      ],
+      [
+        "FC Gorodeya",
+        "Haradzeya"
+      ],
+      [
+        "FC Granit Mikashevichi",
+        "Mikashevichy"
+      ],
+      [
+        "FC Isloch Minsk Raion",
+        "Minsk"
+      ],
+      [
+        "FC Krumkachy Minsk",
+        "Minsk"
+      ],
+      [
+        "FC Minsk",
+        "Minsk"
+      ],
+      [
+        "FC Naftan Novopolotsk",
+        "Navapolatsk"
+      ],
+      [
+        "FC Neman Grodno",
+        "Grodno"
+      ],
+      [
+        "FC Shakhtyor Soligorsk",
+        "Salihorsk"
+      ],
+      [
+        "FC Slavia-Mozyr",
+        "Mazyr"
+      ],
+      [
+        "FC Slutsk",
+        "Slutsk"
+      ],
+      [
+        "FC Torpedo-BelAZ Zhodino",
+        "Zhodzina"
+      ],
+      [
+        "FC Vitebsk",
+        "Vitebsk"
+      ]
+    ],
+    [
+      [
+        "R.S.C. Anderlecht",
+        "Anderlecht"
+      ],
+      [
+        "R. Charleroi S.C.",
+        "Charleroi"
+      ],
+      [
+        "Club Brugge KV",
+        "Bruges"
+      ],
+      [
+        "K.R.C. Genk",
+        "Genk"
+      ],
+      [
+        "K.A.A. Gent",
+        "Ghent"
+      ],
+      [
+        "K.V. Kortrijk",
+        "Kortrijk"
+      ],
+      [
+        "K.S.C. Lokeren Oost-Vlaanderen",
+        "Lokeren"
+      ],
+      [
+        "KV Mechelen",
+        "Mechelen"
+      ],
+      [
+        "Royal Mouscron-Péruwelz",
+        "Mouscron"
+      ],
+      [
+        "K.V. Oostende",
+        "Ostend"
+      ],
+      [
+        "Oud-Heverlee Leuven",
+        "Leuven"
+      ],
+      [
+        "Sint-Truidense V.V.",
+        "Sint-Truiden"
+      ],
+      [
+        "Standard Liège",
+        "Liège"
+      ],
+      [
+        "Waasland-Beveren",
+        "Beveren"
+      ],
+      [
+        "K.V.C. Westerlo",
+        "Westerlo"
+      ],
+      [
+        "S.V. Zulte Waregem",
+        "Waregem"
+      ]
+    ],
+    [
+      [
+        "FK Borac Banja Luka",
+        "Banja Luka"
+      ],
+      [
+        "FK Drina Zvornik",
+        "Zvornik"
+      ],
+      [
+        "FK Mladost Doboj Kakanj",
+        "Doboj"
+      ],
+      [
+        "FK Olimpic Sarajevo",
+        "Sarajevo"
+      ],
+      [
+        "FK Radnik Bijeljina",
+        "Bijeljina"
+      ],
+      [
+        "FK Rudar Prijedor",
+        "Prijedor"
+      ],
+      [
+        "FK Slavija Istočno Sarajevo",
+        "Istočno Sarajevo"
+      ],
+      [
+        "FK Sloboda Tuzla",
+        "Tuzla"
+      ],
+      [
+        "FK Velež Mostar",
+        "Mostar"
+      ],
+      [
+        "HŠK Zrinjski Mostar",
+        "Mostar"
+      ],
+      [
+        "NK Vitez",
+        "Vitez"
+      ],
+      [
+        "FK Sarajevo",
+        "Sarajevo"
+      ],
+      [
+        "NK Travnik",
+        "Travnik"
+      ],
+      [
+        "NK Čelik Zenica",
+        "Zenica"
+      ],
+      [
+        "NK Široki Brijeg",
+        "Široki Brijeg"
+      ],
+      [
+        "FK Željezničar Sarajevo",
+        "Sarajevo"
+      ]
+    ],
+    [
+      [
+        "PFC Beroe Stara Zagora",
+        "Stara Zagora"
+      ],
+      [
+        "PFC Botev Plovdiv",
+        "Plovdiv"
+      ],
+      [
+        "PFC Cherno More Varna",
+        "Varna"
+      ],
+      [
+        "PFC Levski Sofia",
+        "Sofia"
+      ],
+      [
+        "PFC Litex Lovech",
+        "Lovech"
+      ],
+      [
+        "PFC Lokomotiv Plovdiv",
+        "Plovdiv"
+      ],
+      [
+        "PFC Ludogorets Razgrad",
+        "Razgrad"
+      ],
+      [
+        "PFC Montana",
+        "Montana"
+      ],
+      [
+        "OFC Pirin Blagoevgrad",
+        "Blagoevgrad"
+      ],
+      [
+        "PFC Slavia Sofia",
+        "Sofia"
       ]
     ]
   ]
