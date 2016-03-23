@@ -10,7 +10,10 @@
     selectCtrl.countries = [];
     // status variables for tournament type
     selectCtrl.international = true;
-    selectCtrl.club = true;
+    selectCtrl.club = false;
+    // status variable to show flags or club crests
+    selectCtrl.showFlag = true;
+    selectCtrl.showCrest = true;
     // traversal variables for selection traversal
     selectCtrl.currentCountry = 0;
     selectCtrl.currentClub = 0;
@@ -34,7 +37,13 @@
         });
       }
 
-      // console.log(selectCtrl.countries);
+      // set host country for European Championships
+      for (var i = 0; i < selectCtrl.countries.length; i++) {
+        if (selectCtrl.countries[i].name == 'France' && selectCtrl.international) {
+          selectCtrl.tournamentTeams.push(selectCtrl.countries[i]);
+          break;
+        }
+      }
     }
 
     // Country constructor function
@@ -42,6 +51,7 @@
       this.name = name;
       this.imageURL = imageURL;
       this.clubs = [];
+      this.host = false;
     }
 
     // Club constructor function
@@ -90,14 +100,29 @@
     }
 
     /* Functionality to add teams to tournament */
+
+    // helper function to check if team is in tournament
+    var teamInTournament = function(team, tournamentTeams) {
+      if (tournamentTeams.length == 0) {
+        return false;
+      }
+      for (var i = 0; i < tournamentTeams.length; i++) {
+        if (team.name == tournamentTeams[i].name) {
+          return true;
+        }
+      }
+      return false;
+    }
+
     selectCtrl.addTeamToTournament = function (country, club) {
-      //  console.log(country);
-      //  console.log(club);
-       if (!selectCtrl.club && selectCtrl.international) {
+
+       if (!selectCtrl.club && selectCtrl.international && !teamInTournament(country, selectCtrl.tournamentTeams)) {
          selectCtrl.tournamentTeams.push(country);
-       } else if (selectCtrl.club && selectCtrl.international){
+       } else if (selectCtrl.club && selectCtrl.international && !teamInTournament(club, selectCtrl.tournamentTeams)){
          selectCtrl.tournamentTeams.push(club);
        }
     }
+
+    /* Functionality to remove teams from tournament */ 
   }
 })();
