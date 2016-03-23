@@ -19,6 +19,8 @@
     selectCtrl.currentClub = 0;
     // list of teams in tournament
     selectCtrl.tournamentTeams = [];
+    // status vaariable to display remove button
+    selectCtrl.removeButton = true;
 
     /* Make call to consume countries.json API*/
     $http.get("../json/countries.json").then(getCountries);
@@ -123,6 +125,19 @@
        }
     }
 
-    /* Functionality to remove teams from tournament */ 
+    /* Functionality to remove teams from tournament */
+
+    selectCtrl.showRemoveButton = function () {
+      selectCtrl.removeButton = !selectCtrl.removeButton;
+    }
+
+    selectCtrl.removeTeam = function (index) {
+      if (selectCtrl.tournamentTeams[index].host == true) {
+        console.log("Cannot remove host team!");
+      }
+
+      selectCtrl.tournamentTeams.splice(index,1);
+    }
+
   }
 })();
