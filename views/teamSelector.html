@@ -55,9 +55,9 @@
         </thead>
 
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>Eclair</td>
+          <tr ng-repeat="team in selectCtrl.tournamentTeams">
+            <td>{{$index+1}}</td>
+            <td>{{team.name}}</td>
           </tr>
         </tbody>
       </table>
