@@ -8,28 +8,12 @@
   function selectController($http, $stateParams) {
     var selectCtrl = this;
 
-    // require request and cheerio
-    // var request = require('request');
-    // var cheerio = require('cheerio');
-
+    // tournament variable to store $stateParams from tournamentSelector.html
     selectCtrl.tournament = new Tournament($stateParams);
-    console.log(selectCtrl.tournament);
-
-    function Tournament($stateParams) {
-      this.name = $stateParams.name;
-      if ($stateParams.club == 'false') {
-        this.club = false;
-      } else {
-        this.club = true;
-      }
-      this.maxTeams = parseInt($stateParams.maxTeams);
-    }
-
     // list of countries variable
     selectCtrl.countries = [];
     // status variables for tournament type
     selectCtrl.international = true;
-    // selectCtrl.club = true;
     // status variable to show flags or club crests
     selectCtrl.showFlag = true;
     selectCtrl.showCrest = true;
@@ -38,8 +22,6 @@
     selectCtrl.currentClub = 0;
     // list of teams in tournament
     selectCtrl.tournamentTeams = [];
-    // status vaariable to display remove button
-    selectCtrl.removeButton = true;
 
     /* Make call to consume countries.json API*/
     $http.get("../json/countries.json").then(getCountries);
@@ -48,7 +30,8 @@
 
       // push list of countries to selectCtrl.countries
       response.data.countries.forEach(function(element) {
-        selectCtrl.countries.push(new Country(element[0], element[1]));
+        selectCtrl.countries.push(new Country(element[0], element[1], element[2]));
+        // console.log(selectCtrl.countries);
       });
 
       // push list of clubs to assigned country
@@ -60,20 +43,25 @@
 
       // set host country for European Championships
       for (var i = 0; i < selectCtrl.countries.length; i++) {
-        if (selectCtrl.countries[i].name == 'France' && selectCtrl.international && !selectCtrl.tournament.club) {
+        if (selectCtrl.countries[i].name == 'France' && !selectCtrl.tournament.club) {
+          selectCtrl.countries[i].host = true;
+          selectCtrl.countries[i].removeButton = false;
           selectCtrl.tournamentTeams.push(selectCtrl.countries[i]);
           break;
         }
       }
 
+      console.log(selectCtrl.countries);
     }
 
     // Country constructor function
-    function Country(name, imageURL) {
+    function Country(name, imageURL, nationalCoefficient) {
       this.name = name;
       this.imageURL = imageURL;
+      this.nationalCoefficient = nationalCoefficient;
       this.clubs = [];
       this.host = false;
+      this.removeButton = true;
     }
 
     // Club constructor function
@@ -81,6 +69,17 @@
       this.name = name;
       this.city = city;
       this.country = country;
+    }
+
+    // Tournament constructor function
+    function Tournament($stateParams) {
+      this.name = $stateParams.name;
+      if ($stateParams.club == 'false') {
+        this.club = false;
+      } else {
+        this.club = true;
+      }
+      this.maxTeams = parseInt($stateParams.maxTeams);
     }
 
     /* Make calls to web scrape coefficient and rankings API */
@@ -148,27 +147,31 @@
       return false;
     }
 
+    // helper function to check if team is eligible to add to tournament
+    var ableToAddTeam = function (team, tournamentTeams, maxTeams) {
+      // if (!teamInTournament(team, selectCtrl))
+      return !teamInTournament(team, tournamentTeams) &&
+             tournamentTeams.length < maxTeams;
+    }
+
     selectCtrl.addTeamToTournament = function (country, club) {
 
-       if (!selectCtrl.club && selectCtrl.international && !teamInTournament(country, selectCtrl.tournamentTeams)) {
+       if (!selectCtrl.tournament.club &&
+           ableToAddTeam(country, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)) {
+        //  country.removeButton = false;
+        //  console.log(country);
          selectCtrl.tournamentTeams.push(country);
-       } else if (selectCtrl.club && selectCtrl.international && !teamInTournament(club, selectCtrl.tournamentTeams)){
+       } else if (selectCtrl.tournament.club &&
+                  ableToAddTeam(club, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)){
+        //  club.removeButton = false;
+        //  console.log(club);
          selectCtrl.tournamentTeams.push(club);
        }
     }
 
     /* Functionality to remove teams from tournament */
-
-    selectCtrl.showRemoveButton = function () {
-      selectCtrl.removeButton = !selectCtrl.removeButton;
-    }
-
     selectCtrl.removeTeam = function (index) {
-      if (selectCtrl.tournamentTeams[index].host == true) {
-        console.log("Cannot remove host team!");
-      }
-
-      selectCtrl.tournamentTeams.splice(index,1);
+        selectCtrl.tournamentTeams.splice(index,1);
     }
 
   }
