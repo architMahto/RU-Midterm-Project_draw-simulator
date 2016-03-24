@@ -1,7 +1,7 @@
 (function() {
   'use strict'
 
-  angular.module('drawApp', ['tournamentControllers', 'selectControllers', 'ui.router'])
+  angular.module('drawApp', ['tournamentController', 'selectController', 'drawController', 'ui.router'])
     .config(mainRouter);
 
   function mainRouter($stateProvider, $urlRouterProvider) {
@@ -15,6 +15,11 @@
         url: '/selectTeams/:name?club?maxTeams',
         templateUrl: '../views/teamSelector.html',
         controller: 'selectController'
+      })
+      .state('draw', {
+        url: '/draw',
+        templateUrl: '../views/draw.html',
+        controller: 'drawController'
       })
       $urlRouterProvider.otherwise('/');
   }

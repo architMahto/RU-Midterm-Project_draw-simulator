@@ -1,7 +1,7 @@
 ;(function() {
   'use strict';
 
-  angular.module('tournamentControllers', [])
+  angular.module('tournamentController', [])
     .controller('tournamentController', tournamentController)
 
   // Controller Callback
@@ -33,14 +33,6 @@
           maxTeams: 48
         }
       ]
-      // [
-      //   {
-      //     name: "FIFA World Cup",
-      //     federation: "FIFA",
-      //     imageURL: "../../img/fifaWorldCup2018.png",
-      //     category: "national"
-      //   }
-      // ]
     ];
 
     tournamentCtrl.currentFederation = 0;
@@ -87,7 +79,6 @@
       }
       console.log(tournamentCtrl.tournaments);
     }
-
 
   }
 })();
