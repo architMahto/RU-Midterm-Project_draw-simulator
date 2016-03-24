@@ -11,7 +11,7 @@
           <img class="responsive-img" src={{selectCtrl.countries[selectCtrl.currentCountry].imageURL}} style="height:250px; width:400px;"/>
         </div>
 
-        <div class="row grey darken-4 grey-text text-lighten-2 center" ng-show="selectCtrl.international">
+        <div class="row grey darken-4 grey-text text-lighten-2 center">
           <div class="col s2">
             <h5><i class="fa fa-arrow-left waves-effect waves-light" ng-click="selectCtrl.moveCountryLeft()"></i></h5>
           </div>
@@ -25,7 +25,7 @@
           </div>
         </div>
 
-        <div class="row grey darken-4 grey-text text-lighten-2 center" ng-show="selectCtrl.club">
+        <div class="row grey darken-4 grey-text text-lighten-2 center" ng-show="selectCtrl.tournament.club">
           <div class="col s2">
             <h5><i class="fa fa-arrow-left waves-effect waves-light" ng-click="selectCtrl.moveClubLeft()"></i></h5>
           </div>
@@ -74,8 +74,8 @@
             <td>
               {{$index+1}}
             </td>
-            <td>
-              <!-- <img class="responsove-img" src={{team.imageURL}} style="width:30px; height:20px;"/> -->
+            <td ng-hide="selectCtrl.tournament.club">
+              <img class="responsove-img" src={{team.imageURL}} style="width:30px; height:20px;"/>
             </td>
             <td>
               {{team.name}}

@@ -32,7 +32,7 @@
         </div>
 
         <div class="row">
-          <a ui-sref="teamSelector({tournament: tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament]})" class="waves-effect waves-light btn-large grey darken-4">
+          <a ui-sref="teamSelector({name: tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].name, club: tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].club, maxTeams: tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].maxTeams})" class="waves-effect waves-light btn-large grey darken-4">
             SELECT
           </a>
         </div>

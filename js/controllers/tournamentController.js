@@ -16,21 +16,21 @@
           federation: "UEFA",
           imageURL: "../../img/uefaEuro2016.png",
           club: false,
-          numTeams: 24
+          maxTeams: 24
         },
         {
           name: "UEFA Champions League",
           federation: "UEFA",
           imageURL: "../../img/uefaChampionsLeague2.png",
           club: true,
-          numTeams: 32
+          maxTeams: 32
         },
         {
           name: "UEFA Europa League",
           federation: "UEFA",
           imageURL: "../../img/uefaEuropaLeague.png",
           club: true,
-          numTeams: 48
+          maxTeams: 48
         }
       ]
       // [

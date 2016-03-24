@@ -12,11 +12,24 @@
     // var request = require('request');
     // var cheerio = require('cheerio');
 
+    selectCtrl.tournament = new Tournament($stateParams);
+    console.log(selectCtrl.tournament);
+
+    function Tournament($stateParams) {
+      this.name = $stateParams.name;
+      if ($stateParams.club == 'false') {
+        this.club = false;
+      } else {
+        this.club = true;
+      }
+      this.maxTeams = parseInt($stateParams.maxTeams);
+    }
+
     // list of countries variable
     selectCtrl.countries = [];
     // status variables for tournament type
     selectCtrl.international = true;
-    selectCtrl.club = true;
+    // selectCtrl.club = true;
     // status variable to show flags or club crests
     selectCtrl.showFlag = true;
     selectCtrl.showCrest = true;
@@ -47,7 +60,7 @@
 
       // set host country for European Championships
       for (var i = 0; i < selectCtrl.countries.length; i++) {
-        if (selectCtrl.countries[i].name == 'France' && selectCtrl.international && !selectCtrl.club) {
+        if (selectCtrl.countries[i].name == 'France' && selectCtrl.international && !selectCtrl.tournament.club) {
           selectCtrl.tournamentTeams.push(selectCtrl.countries[i]);
           break;
         }
