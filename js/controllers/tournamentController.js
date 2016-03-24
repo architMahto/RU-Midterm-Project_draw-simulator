@@ -15,29 +15,32 @@
           name: "UEFA European Championship",
           federation: "UEFA",
           imageURL: "../../img/uefaEuro2016.png",
-          category: "national"
+          club: false,
+          numTeams: 24
         },
         {
           name: "UEFA Champions League",
           federation: "UEFA",
           imageURL: "../../img/uefaChampionsLeague2.png",
-          category: "club"
+          club: true,
+          numTeams: 32
         },
         {
           name: "UEFA Europa League",
           federation: "UEFA",
           imageURL: "../../img/uefaEuropaLeague.png",
-          category: "club"
-        }
-      ],
-      [
-        {
-          name: "FIFA World Cup",
-          federation: "FIFA",
-          imageURL: "../../img/fifaWorldCup2018.png",
-          category: "national"
+          club: true,
+          numTeams: 48
         }
       ]
+      // [
+      //   {
+      //     name: "FIFA World Cup",
+      //     federation: "FIFA",
+      //     imageURL: "../../img/fifaWorldCup2018.png",
+      //     category: "national"
+      //   }
+      // ]
     ];
 
     tournamentCtrl.currentFederation = 0;
@@ -52,6 +55,7 @@
         tournamentCtrl.currentFederation -= 1;
         tournamentCtrl.currentTournament = 0;
       }
+      console.log(tournamentCtrl.tournaments);
     }
 
     tournamentCtrl.moveFederationRight = function () {
@@ -62,6 +66,7 @@
         tournamentCtrl.currentFederation += 1;
         tournamentCtrl.currentTournament = 0;
       }
+      console.log(tournamentCtrl.tournaments);
     }
 
     /* Functionality to browse through tournaments */
@@ -71,6 +76,7 @@
       } else {
         tournamentCtrl.currentTournament -= 1;
       }
+      console.log(tournamentCtrl.tournaments);
     }
 
     tournamentCtrl.moveTournamentRight = function () {
@@ -79,8 +85,9 @@
       } else {
         tournamentCtrl.currentTournament += 1;
       }
+      console.log(tournamentCtrl.tournaments);
     }
 
-    
+
   }
 })();

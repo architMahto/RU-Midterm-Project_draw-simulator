@@ -32,7 +32,9 @@
         </div>
 
         <div class="row">
-          <a ui-sref="teamSelector" class="waves-effect waves-light btn-large grey darken-4">SELECT</a>
+          <a ui-sref="teamSelector({tournament: tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament]})" class="waves-effect waves-light btn-large grey darken-4">
+            SELECT
+          </a>
         </div>
       </div>
     </div>

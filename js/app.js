@@ -12,7 +12,7 @@
         controller: 'tournamentController'
       })
       .state('teamSelector', {
-        url: '/selectTeams',
+        url: '/selectTeams/:tournament',
         templateUrl: '../views/teamSelector.html',
         controller: 'selectController'
       })

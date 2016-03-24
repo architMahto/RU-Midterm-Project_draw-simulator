@@ -5,7 +5,7 @@
     .controller('selectController', selectController)
 
   // Controller Callback
-  function selectController($http) {
+  function selectController($http, $stateParams) {
     var selectCtrl = this;
 
     // require request and cheerio
@@ -52,6 +52,7 @@
           break;
         }
       }
+
     }
 
     // Country constructor function
