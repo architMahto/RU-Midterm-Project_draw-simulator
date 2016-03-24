@@ -61,7 +61,7 @@
       <br />
       <h2 class="center">List of Teams</h2>
 
-      <table class="highlight">
+      <table class="highlight responsive-table">
         <thead>
           <th>#</th>
           <th></th>
@@ -75,7 +75,7 @@
               {{$index+1}}
             </td>
             <td>
-              <img class="responsove-img" src={{team.imageURL}} style="width:30px; height:20px;"/>
+              <!-- <img class="responsove-img" src={{team.imageURL}} style="width:30px; height:20px;"/> -->
             </td>
             <td>
               {{team.name}}
@@ -92,8 +92,6 @@
     </div>
 
     <div class="row">
-      <div class="container">
-        <a class="waves-effect waves-light btn grey darken-4">Back to Select Team</a>
-      </div>
+      <a class="waves-effect waves-light btn grey darken-4">Back to Select Team</a>
     </div>
   </div>

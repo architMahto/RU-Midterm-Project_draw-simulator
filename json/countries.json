@@ -98,10 +98,6 @@
       "../img/flags/icelandFlag.png"
     ],
     [
-      "Republic of Ireland",
-      "../img/flags/irelandFlag.png"
-    ],
-    [
       "Israel",
       "../img/flags/israelFlag.png"
     ],
@@ -164,6 +160,10 @@
     [
       "Portugal",
       "../img/flags/portugalFlag.svg"
+    ],
+    [
+      "Republic of Ireland",
+      "../img/flags/irelandFlag.png"
     ],
     [
       "Romania",
@@ -1509,56 +1509,6 @@
     ],
     [
       [
-        "Bohemian F.C.",
-        "Dublin"
-      ],
-      [
-        "Bray Wanderers F.C.",
-        "Bray"
-      ],
-      [
-        "Cork City F.C.",
-        "Cork"
-      ],
-      [
-        "Derry City F.C.",
-        "Derry"
-      ],
-      [
-        "Drogheda United F.C.",
-        "Drogheda"
-      ],
-      [
-        "Dundalk F.C.",
-        "Dundalk"
-      ],
-      [
-        "Galway United F.C.",
-        "Galway"
-      ],
-      [
-        "Limerick F.C.",
-        "Limerick"
-      ],
-      [
-        "Longford Town F.C.",
-        "Longford"
-      ],
-      [
-        "Shamrock Rovers F.C.",
-        "Dublin"
-      ],
-      [
-        "Sligo Rovers F.C.",
-        "Sligo"
-      ],
-      [
-        "St Patrick's Athletic F.C.",
-        "Dublin"
-      ]
-    ],
-    [
-      [
         "Beitar Jerusalem F.C.",
         "Jerusalem"
       ],
@@ -2399,6 +2349,56 @@
       [
         "Vitória F.C.",
         "Setúbal"
+      ]
+    ],
+    [
+      [
+        "Bohemian F.C.",
+        "Dublin"
+      ],
+      [
+        "Bray Wanderers F.C.",
+        "Bray"
+      ],
+      [
+        "Cork City F.C.",
+        "Cork"
+      ],
+      [
+        "Derry City F.C.",
+        "Derry"
+      ],
+      [
+        "Drogheda United F.C.",
+        "Drogheda"
+      ],
+      [
+        "Dundalk F.C.",
+        "Dundalk"
+      ],
+      [
+        "Galway United F.C.",
+        "Galway"
+      ],
+      [
+        "Limerick F.C.",
+        "Limerick"
+      ],
+      [
+        "Longford Town F.C.",
+        "Longford"
+      ],
+      [
+        "Shamrock Rovers F.C.",
+        "Dublin"
+      ],
+      [
+        "Sligo Rovers F.C.",
+        "Sligo"
+      ],
+      [
+        "St Patrick's Athletic F.C.",
+        "Dublin"
       ]
     ],
     [

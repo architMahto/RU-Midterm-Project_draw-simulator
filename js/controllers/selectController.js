@@ -10,7 +10,7 @@
     selectCtrl.countries = [];
     // status variables for tournament type
     selectCtrl.international = true;
-    selectCtrl.club = false;
+    selectCtrl.club = true;
     // status variable to show flags or club crests
     selectCtrl.showFlag = true;
     selectCtrl.showCrest = true;
@@ -41,7 +41,7 @@
 
       // set host country for European Championships
       for (var i = 0; i < selectCtrl.countries.length; i++) {
-        if (selectCtrl.countries[i].name == 'France' && selectCtrl.international) {
+        if (selectCtrl.countries[i].name == 'France' && selectCtrl.international && !selectCtrl.club) {
           selectCtrl.tournamentTeams.push(selectCtrl.countries[i]);
           break;
         }
