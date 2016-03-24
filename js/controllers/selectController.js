@@ -7,6 +7,12 @@
   // Controller Callback
   function selectController($http) {
     var selectCtrl = this;
+
+    // require request and cheerio
+    // var request = require('request');
+    // var cheerio = require('cheerio');
+
+    // list of countries variable
     selectCtrl.countries = [];
     // status variables for tournament type
     selectCtrl.international = true;
@@ -62,6 +68,18 @@
       this.city = city;
       this.country = country;
     }
+
+    /* Make calls to web scrape coefficient and rankings API */
+    // request('http://kassiesa.home.xs4all.nl/bert/uefa/data/method4/crank2016.html', function(error, response, html) {
+    //   if (!error && response.statusCode == 200) {
+    //
+    //     var $ = cheerio.load(html);
+    //
+    //     $("table.t1 td:nth-child(8)").each(function(index,element) {
+    //       console.log($(this).text());
+    //     });
+    //   }
+    // });
 
     /* Functionality to browse through countries */
     selectCtrl.moveCountryLeft = function () {
