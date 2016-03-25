@@ -9,17 +9,14 @@
       .state('tournamentSelector', {
         url: '/',
         templateUrl: '../views/tournamentSelector.html'
-        // controller: 'tournamentController'
       })
       .state('teamSelector', {
         url: '/selectTeams/:id/',
         templateUrl: '../views/teamSelector.html'
-        // controller: 'selectController'
       })
       .state('draw', {
         url: '/draw',
         templateUrl: '../views/draw.html'
-        // controller: 'drawController'
       })
       $urlRouterProvider.otherwise('/');
   }

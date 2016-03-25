@@ -46,7 +46,6 @@
       } else {
         tournamentCtrl.currentTournament -= 1;
       }
-      // console.log(tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].$id);
     }
 
     tournamentCtrl.moveTournamentRight = function () {
@@ -55,7 +54,6 @@
       } else {
         tournamentCtrl.currentTournament += 1;
       }
-      // console.log(tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].$id);
     }
 
   }

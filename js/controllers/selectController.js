@@ -11,17 +11,14 @@
     var ref = new Firebase('https://draw-simulator.firebaseio.com/tournaments/' + $stateParams.id);
     // console.log($stateParams.id);
     var teamsRef = new Firebase('https://draw-simulator.firebaseio.com/teams');
+    // $firebaseArray(teamsRef).$remove()
 
     // tournament variable to store $stateParams from tournamentSelector.html
     selectCtrl.tournament = $firebaseObject(ref);
-    // console.log(selectCtrl.tournament);
     // list of countries variable
     selectCtrl.countries = [];
     // status variables for tournament type
     selectCtrl.international = true;
-    // status variable to show flags or club crests
-    selectCtrl.showFlag = true;
-    selectCtrl.showCrest = true;
     // traversal variables for selection traversal
     selectCtrl.currentCountry = 0;
     selectCtrl.currentClub = 0;
@@ -35,10 +32,11 @@
 
     function getCountries(response) {
 
+      teamsRef.remove();
+
       // push list of countries to selectCtrl.countries
       response.data.countries.forEach(function(element) {
         selectCtrl.countries.push(new Country(element[0], element[1], element[2]));
-        // console.log(selectCtrl.countries);
       });
 
       // push list of clubs to assigned country
@@ -54,7 +52,7 @@
           selectCtrl.countries[i].host = true;
           selectCtrl.countries[i].removeButton = false;
           selectCtrl.tournamentTeams.push(selectCtrl.countries[i]);
-          // selectCtrl.tournamentTeamsDatabase.$add(selectCtrl.countries[i])
+          selectCtrl.tournamentTeamsDatabase.$add(selectCtrl.countries[i])
           break;
         }
       }
@@ -141,19 +139,38 @@
        if (!selectCtrl.tournament.club &&
            ableToAddTeam(country, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)) {
          selectCtrl.tournamentTeams.push(country);
-         selectCtrl.tournamentTeams = _.sortBy(selectCtrl.tournamentTeams, 'name');
-        //  selectCtrl.tournamentTeamsDatabase.$add(country);
+        //  selectCtrl.tournamentTeams = _.sortBy(selectCtrl.tournamentTeams, 'name');
+         selectCtrl.tournamentTeamsDatabase.$add(country);
+        //  teamsRef.orderByChild('name').on("child_added", function(snapshot) {
+        //    console.log(snapshot.key());
+        //  })
        } else if (selectCtrl.tournament.club &&
-                  ableToAddTeam(club, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)){
+                  ableToAddTeam(club, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)) {
+        // add club to the dom
          selectCtrl.tournamentTeams.push(club);
-         selectCtrl.tournamentTeams = _.sortBy(selectCtrl.tournamentTeams, 'name');
-        //  selectCtrl.tournamentTeamsDatabase.$add(club);
+        //  add club to the database
+         selectCtrl.tournamentTeamsDatabase.$add(club);
+        //  teamsRef.orderByKey().on("child_added", function(snapshot) {
+        //    console.log(snapshot.key());
+        //  })
        }
     }
 
     /* Functionality to remove teams from tournament */
-    selectCtrl.removeTeam = function (index) {
-        selectCtrl.tournamentTeams.splice(index,1);
+    selectCtrl.removeTeam = function (team, index) {
+
+      // variable to store url of reference of element to remove
+      var removeRef = "";
+
+      // retrieve element to remove from database
+      teamsRef.orderByChild("name").equalTo(team.name).on("child_added", function (snapshot) {
+        removeRef = new Firebase('https://draw-simulator.firebaseio.com/teams/' + snapshot.key());
+      })
+      // remove element from the DOM
+      selectCtrl.tournamentTeams.splice(selectCtrl.tournamentTeams.indexOf(team),1);
+      
+      // remove element from the database
+      removeRef.remove();
     }
   }
 })();
