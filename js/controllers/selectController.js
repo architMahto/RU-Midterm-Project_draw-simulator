@@ -30,9 +30,7 @@
     $http.get("../json/countries.json").then(getCountries);
 
     function getCountries(response) {
-
-      // console.log(selectCtrl.tournament);
-
+      // resetting database
       teamsRef.remove();
 
       // push list of countries to selectCtrl.countries
