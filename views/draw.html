@@ -109,6 +109,29 @@
       </div>
     </div>
 
+    <!-- Div for buttons  -->
+    <div class="row">
+      <div class="col s4">
+        <div class="center-align">
+          <a ui-sref="tournamentSelector" class="waves-effect waves-light btn-large grey darken-4">Select Tournament</a>
+        </div>
+      </div>
+
+      <div class="col s4">
+        <div class="center-align">
+          <a ui-sref="teamSelector" class="waves-effect waves-light btn-large grey darken-4">Select Different Teams</a>
+        </div>
+      </div>
+
+      <div class="col s4">
+        <div class="center-align">
+          <button class="btn-large waves-effect waves-light grey darken-4" type="submit" ng-click="drawCtrl.draw()">
+            Draw
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- Div for Pots  -->
     <div class="row">
 
@@ -176,22 +199,6 @@
             </tr>
           </tbody>
         </table>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col s4">
-          <a ui-sref="tournamentSelector" class="waves-effect waves-light btn-large grey darken-4">Select Tournament</a>
-      </div>
-
-      <div class="col s4">
-          <a ui-sref="teamSelector" class="waves-effect waves-light btn-large grey darken-4">Select Different Teams</a>
-      </div>
-
-      <div class="col s4">
-        <button class="btn-large waves-effect waves-light grey darken-4" type="submit" ng-click="drawCtrl.draw()">
-          Draw
-        </button>
       </div>
     </div>
   </div>
