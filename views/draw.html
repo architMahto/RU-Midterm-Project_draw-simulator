@@ -1,5 +1,15 @@
   <div class="container" ng-controller="drawController as drawCtrl">
-    <h2 class="center">Groups For {{drawCtrl.tournament.name}}</h2>
+    <!-- Div for Groups  -->
+    <div class="row">
+      <h2 class="center">Groups For {{drawCtrl.tournament.name}}</h2>
+      <div class="row">
+
+      </div>
+
+      <div class="row">
+
+      </div>
+    </div>
 
     <!-- Div for Pots  -->
     <div class="row">
@@ -12,6 +22,12 @@
             <th>Pot 1</th>
           </thead>
           <tbody>
+            <tr ng-repeat="team in drawCtrl.pot1">
+              <td>
+                <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                {{team.name}}
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -22,6 +38,12 @@
             <th>Pot 2</th>
           </thead>
           <tbody>
+            <tr ng-repeat="team in drawCtrl.pot2">
+              <td>
+                <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                {{team.name}}
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -32,6 +54,12 @@
             <th>Pot 3</th>
           </thead>
           <tbody>
+            <tr ng-repeat="team in drawCtrl.pot3">
+              <td>
+                <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                {{team.name}}
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -42,6 +70,12 @@
             <th>Pot 4</th>
           </thead>
           <tbody>
+            <tr ng-repeat="team in drawCtrl.pot4">
+              <td>
+                <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                {{team.name}}
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -49,16 +83,16 @@
 
     <div class="row">
       <div class="col s4">
-          <a ui-sref="tournamentSelector" class="waves-effect waves-light btn-large">Select Tournament</a>
+          <a ui-sref="tournamentSelector" class="waves-effect waves-light btn-large grey darken-4">Select Tournament</a>
       </div>
 
       <div class="col s4">
-          <a ui-sref="teamSelector" class="waves-effect waves-light btn-large">Select Different Teams</a>
+          <a ui-sref="teamSelector" class="waves-effect waves-light btn-large grey darken-4">Select Different Teams</a>
       </div>
 
       <div class="col s4">
-        <button class="btn-large waves-effect waves-light" type="submit">
-          Draw Again
+        <button class="btn-large waves-effect waves-light grey darken-4" type="submit">
+          Draw
         </button>
       </div>
     </div>
