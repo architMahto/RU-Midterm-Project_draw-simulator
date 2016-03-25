@@ -3,11 +3,109 @@
     <div class="row">
       <h2 class="center">Groups For {{drawCtrl.tournament.name}}</h2>
       <div class="row">
+        <!-- Div for Group A  -->
+        <div class="col s4">
+          <table class="highlight centered">
+            <thead>
+              <th>Group A</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="team in drawCtrl.groupA">
+                <td>
+                  <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                  {{team.name}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
+        <!-- Div for Group B  -->
+        <div class="col s4">
+          <table class="highlight centered">
+            <thead>
+              <th>Group B</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="team in drawCtrl.groupB">
+                <td>
+                  <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                  {{team.name}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Div for Group C  -->
+        <div class="col s4">
+          <table class="highlight centered">
+            <thead>
+              <th>Group C</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="team in drawCtrl.groupC">
+                <td>
+                  <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                  {{team.name}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div class="row">
+        <!-- Div for Group D  -->
+        <div class="col s4">
+          <table class="highlight centered">
+            <thead>
+              <th>Group D</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="team in drawCtrl.groupD">
+                <td>
+                  <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                  {{team.name}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
+        <!-- Div for Group E  -->
+        <div class="col s4">
+          <table class="highlight centered">
+            <thead>
+              <th>Group E</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="team in drawCtrl.groupE">
+                <td>
+                  <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                  {{team.name}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Div for Group F  -->
+        <div class="col s4">
+          <table class="highlight centered">
+            <thead>
+              <th>Group F</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="team in drawCtrl.groupF">
+                <td>
+                  <img class="responsive-img" src={{team.imageURL}} style="width:30px; height:20px; margin-right:10px;"/>
+                  {{team.name}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
 
@@ -91,7 +189,7 @@
       </div>
 
       <div class="col s4">
-        <button class="btn-large waves-effect waves-light grey darken-4" type="submit">
+        <button class="btn-large waves-effect waves-light grey darken-4" type="submit" ng-click="drawCtrl.draw()">
           Draw
         </button>
       </div>

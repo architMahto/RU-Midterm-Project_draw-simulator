@@ -12,11 +12,19 @@
     drawCtrl.potSize = null;
     drawCtrl.teams = [];
 
-    // drawCtrl.pots
+    // variables for pots
     drawCtrl.pot1 = [];
     drawCtrl.pot2 = [];
     drawCtrl.pot3 = [];
     drawCtrl.pot4 = [];
+
+    // variables for groups
+    drawCtrl.groupA = [];
+    drawCtrl.groupB = [];
+    drawCtrl.groupC = [];
+    drawCtrl.groupD = [];
+    drawCtrl.groupE = [];
+    drawCtrl.groupF = [];
 
     // calls to Firebase databases
     var ref = new Firebase('https://draw-simulator.firebaseio.com/tournaments/' + $stateParams.id);
@@ -95,7 +103,107 @@
           break;
         }
       }
+
+      // console.log(drawCtrl.pot1);
+      // console.log(drawCtrl.pot2);
+      // console.log(drawCtrl.pot3);
+      // console.log(drawCtrl.pot4);
     }
 
+
+    // Helper function to assign group
+    function assignGroup(team, group) {
+      if (group == 'A') {
+        drawCtrl.groupA.push(team);
+      } else if (group == 'B') {
+        drawCtrl.groupB.push(team);
+      } else if (group == 'C') {
+        drawCtrl.groupC.push(team);
+      } else if (group == 'D') {
+        drawCtrl.groupD.push(team);
+      } else if (group == 'E') {
+        drawCtrl.groupE.push(team);
+      } else if (group == 'F') {
+        drawCtrl.groupF.push(team);
+      }
+    }
+
+    drawCtrl.draw = function() {
+      // console.log(drawCtrl.teams);
+      var letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+      // var nums = [0,1,2,3,4,5];
+
+      var pot1Copy = drawCtrl.pot1.slice();
+      var pot2Copy = drawCtrl.pot2.slice();
+      var pot3Copy = drawCtrl.pot3.slice();
+      var pot4Copy = drawCtrl.pot4.slice();
+
+      // reset groups for repeated draws
+      drawCtrl.groupA = [];
+      drawCtrl.groupB = [];
+      drawCtrl.groupC = [];
+      drawCtrl.groupD = [];
+      drawCtrl.groupE = [];
+      drawCtrl.groupF = [];
+
+      var i = 0;
+
+      while (pot1Copy.length > 0) {
+
+        if (pot1Copy[i].host) {
+          letters.splice(letters.indexOf('A'),1);
+          drawCtrl.groupA.push(pot1Copy[0]);
+          pot1Copy.splice(0,1);
+        } else {
+          var pickGroup = Math.floor(Math.random()*letters.length);
+          var selectedGroup = letters[pickGroup];
+          var pickTeam = Math.floor(Math.random()*pot1Copy.length);
+
+          assignGroup(pot1Copy[pickTeam], selectedGroup);
+
+          pot1Copy.splice(pickTeam,1);
+          letters.splice(pickGroup,1);
+        }
+      }
+
+      var letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+      while (pot2Copy.length > 0) {
+        var pickGroup = Math.floor(Math.random()*letters.length);
+        var selectedGroup = letters[pickGroup];
+        var pickTeam = Math.floor(Math.random()*pot2Copy.length);
+
+        assignGroup(pot2Copy[pickTeam], selectedGroup);
+
+        pot2Copy.splice(pickTeam,1);
+        letters.splice(pickGroup,1);
+      }
+
+      var letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+      while (pot3Copy.length > 0) {
+        var pickGroup = Math.floor(Math.random()*letters.length);
+        var selectedGroup = letters[pickGroup];
+        var pickTeam = Math.floor(Math.random()*pot3Copy.length);
+
+        assignGroup(pot3Copy[pickTeam], selectedGroup);
+
+        pot3Copy.splice(pickTeam,1);
+        letters.splice(pickGroup,1);
+      }
+
+      var letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+      while (pot4Copy.length > 0) {
+        var pickGroup = Math.floor(Math.random()*letters.length);
+        var selectedGroup = letters[pickGroup];
+        var pickTeam = Math.floor(Math.random()*pot4Copy.length);
+
+        assignGroup(pot4Copy[pickTeam], selectedGroup);
+
+        pot4Copy.splice(pickTeam,1);
+        letters.splice(pickGroup,1);
+      }
+    }
   }
 })();
