@@ -8,10 +8,9 @@
   function selectController($http, $stateParams, $firebaseObject, $firebaseArray) {
     var selectCtrl = this;
 
+    // set calls to Firebase databases
     var ref = new Firebase('https://draw-simulator.firebaseio.com/tournaments/' + $stateParams.id);
-    // console.log($stateParams.id);
     var teamsRef = new Firebase('https://draw-simulator.firebaseio.com/teams');
-    // $firebaseArray(teamsRef).$remove()
 
     // tournament variable to store $stateParams from tournamentSelector.html
     selectCtrl.tournament = $firebaseObject(ref);
@@ -31,6 +30,8 @@
     $http.get("../json/countries.json").then(getCountries);
 
     function getCountries(response) {
+
+      console.log(selectCtrl.tournament);
 
       teamsRef.remove();
 
@@ -130,47 +131,41 @@
 
     // helper function to check if team is eligible to add to tournament
     var ableToAddTeam = function (team, tournamentTeams, maxTeams) {
-      // if (!teamInTournament(team, selectCtrl))
       return !teamInTournament(team, tournamentTeams) &&
              tournamentTeams.length < maxTeams;
     }
 
+    // ng-click function to add team to tournament
     selectCtrl.addTeamToTournament = function (country, club) {
-       if (!selectCtrl.tournament.club &&
-           ableToAddTeam(country, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)) {
-         selectCtrl.tournamentTeams.push(country);
-        //  selectCtrl.tournamentTeams = _.sortBy(selectCtrl.tournamentTeams, 'name');
-         selectCtrl.tournamentTeamsDatabase.$add(country);
-        //  teamsRef.orderByChild('name').on("child_added", function(snapshot) {
-        //    console.log(snapshot.key());
-        //  })
-       } else if (selectCtrl.tournament.club &&
-                  ableToAddTeam(club, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)) {
-        // add club to the dom
-         selectCtrl.tournamentTeams.push(club);
-        //  add club to the database
-         selectCtrl.tournamentTeamsDatabase.$add(club);
-        //  teamsRef.orderByKey().on("child_added", function(snapshot) {
-        //    console.log(snapshot.key());
-        //  })
-       }
+      if (!selectCtrl.tournament.club &&
+         ableToAddTeam(country, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)) {
+        // add country to the DOM
+        selectCtrl.tournamentTeams.push(country);
+        // add country to the database
+        selectCtrl.tournamentTeamsDatabase.$add(country);
+      } else if (selectCtrl.tournament.club &&
+                ableToAddTeam(club, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)) {
+      // add club to the DOM
+       selectCtrl.tournamentTeams.push(club);
+      //  add club to the database
+       selectCtrl.tournamentTeamsDatabase.$add(club);
+      }
     }
 
     /* Functionality to remove teams from tournament */
     selectCtrl.removeTeam = function (team, index) {
-
       // variable to store url of reference of element to remove
       var removeRef = "";
-
       // retrieve element to remove from database
       teamsRef.orderByChild("name").equalTo(team.name).on("child_added", function (snapshot) {
         removeRef = new Firebase('https://draw-simulator.firebaseio.com/teams/' + snapshot.key());
       })
       // remove element from the DOM
       selectCtrl.tournamentTeams.splice(selectCtrl.tournamentTeams.indexOf(team),1);
-      
       // remove element from the database
       removeRef.remove();
     }
+
+    /* Functionality to see if we are able to draw*/
   }
 })();

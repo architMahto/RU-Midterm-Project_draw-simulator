@@ -15,7 +15,7 @@
         templateUrl: '../views/teamSelector.html'
       })
       .state('draw', {
-        url: '/draw',
+        url: '/draw/:id/',
         templateUrl: '../views/draw.html'
       })
       $urlRouterProvider.otherwise('/');
