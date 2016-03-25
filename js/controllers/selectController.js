@@ -31,7 +31,7 @@
 
     function getCountries(response) {
 
-      console.log(selectCtrl.tournament);
+      // console.log(selectCtrl.tournament);
 
       teamsRef.remove();
 
@@ -167,5 +167,10 @@
     }
 
     /* Functionality to see if we are able to draw*/
+    selectCtrl.continueToDraw = function () {
+      if (selectCtrl.tournamentTeams.length < selectCtrl.tournament.maxTeams) {
+        event.preventDefault();
+      }
+    }
   }
 })();

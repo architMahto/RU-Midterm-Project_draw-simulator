@@ -211,7 +211,7 @@
     ],
     [
       "Kazakhstan",
-      "../img/flags/kazakhstanFlag.svg",
+      "../img/flags/kazakhstanFlag.png",
       14101,
       25.100,
       1,
@@ -219,7 +219,7 @@
     ],
     [
       "Latvia",
-      "../img/flags/latviaFlag.svg",
+      "../img/flags/latviaFlag.png",
       16911,
       25.100,
       1,
@@ -227,7 +227,7 @@
     ],
     [
       "Liechtenstein",
-      "../img/flags/liechtensteinFlag.svg",
+      "../img/flags/liechtensteinFlag.png",
       12725,
       25.100,
       1,
@@ -235,7 +235,7 @@
     ],
     [
       "Lithuania",
-      "../img/flags/lithuaniaFlag.svg",
+      "../img/flags/lithuaniaFlag.png",
       19278,
       25.100,
       1,
@@ -243,7 +243,7 @@
     ],
     [
       "Luxembourg",
-      "../img/flags/luxembourgFlag.svg",
+      "../img/flags/luxembourgFlag.png",
       13821,
       25.100,
       1,
@@ -251,7 +251,7 @@
     ],
     [
       "Macedonia",
-      "../img/flags/macedoniaFlag.svg",
+      "../img/flags/macedoniaFlag.png",
       15521,
       25.100,
       1,
@@ -259,7 +259,7 @@
     ],
     [
       "Malta",
-      "../img/flags/maltaFlag.svg",
+      "../img/flags/maltaFlag.png",
       11310,
       25.100,
       1,
@@ -267,7 +267,7 @@
     ],
     [
       "Moldova",
-      "../img/flags/moldovaFlag.svg",
+      "../img/flags/moldovaFlag.png",
       16621,
       25.100,
       1,
@@ -275,7 +275,7 @@
     ],
     [
       "Montenegro",
-      "../img/flags/montenegroFlag.svg",
+      "../img/flags/montenegroFlag.png",
       22971,
       25.100,
       1,
@@ -283,7 +283,7 @@
     ],
     [
       "Netherlands",
-      "../img/flags/netherlandsFlag.svg",
+      "../img/flags/netherlandsFlag.png",
       33679,
       25.100,
       1,
@@ -299,7 +299,7 @@
     ],
     [
       "Norway",
-      "../img/flags/norwayFlag.svg",
+      "../img/flags/norwayFlag.png",
       26439,
       25.100,
       1,
@@ -307,7 +307,7 @@
     ],
     [
       "Poland",
-      "../img/flags/polandFlag.svg",
+      "../img/flags/polandFlag.png",
       28306,
       25.100,
       1,
@@ -315,7 +315,7 @@
     ],
     [
       "Portugal",
-      "../img/flags/portugalFlag.svg",
+      "../img/flags/portugalFlag.png",
       35138,
       25.100,
       1,
@@ -331,7 +331,7 @@
     ],
     [
       "Romania",
-      "../img/flags/romaniaFlag.svg",
+      "../img/flags/romaniaFlag.png",
       28038,
       25.100,
       1,
@@ -339,7 +339,7 @@
     ],
     [
       "Russia",
-      "../img/flags/russiaFlag.svg",
+      "../img/flags/russiaFlag.png",
       31345,
       25.100,
       1,
@@ -347,7 +347,7 @@
     ],
     [
       "San Marino",
-      "../img/flags/sanMarinoFlag.svg",
+      "../img/flags/sanMarinoFlag.png",
       8110,
       25.100,
       1,
@@ -355,7 +355,7 @@
     ],
     [
       "Scotland",
-      "../img/flags/scotlandFlag.svg",
+      "../img/flags/scotlandFlag.png",
       23259,
       25.100,
       1,
@@ -363,7 +363,7 @@
     ],
     [
       "Serbia",
-      "../img/flags/serbiaFlag.svg",
+      "../img/flags/serbiaFlag.png",
       22127,
       25.100,
       1,
@@ -371,7 +371,7 @@
     ],
     [
       "Slovakia",
-      "../img/flags/slovakiaFlag.svg",
+      "../img/flags/slovakiaFlag.png",
       27171,
       25.100,
       1,
@@ -379,7 +379,7 @@
     ],
     [
       "Slovenia",
-      "../img/flags/sloveniaFlag.svg",
+      "../img/flags/sloveniaFlag.png",
       25441,
       25.100,
       1,
@@ -387,7 +387,7 @@
     ],
     [
       "Spain",
-      "../img/flags/spainFlag.svg",
+      "../img/flags/spainFlag.png",
       37962,
       25.100,
       1,
@@ -395,7 +395,7 @@
     ],
     [
       "Sweden",
-      "../img/flags/swedenFlag.svg",
+      "../img/flags/swedenFlag.png",
       29028,
       25.100,
       1,
@@ -403,7 +403,7 @@
     ],
     [
       "Switzerland",
-      "../img/flags/switzerlandFlag.gif",
+      "../img/flags/switzerlandFlag.png",
       31254,
       25.100,
       1,
@@ -411,7 +411,7 @@
     ],
     [
       "Turkey",
-      "../img/flags/turkeyFlag.svg",
+      "../img/flags/turkeyFlag.png",
       27033,
       25.100,
       1,
@@ -419,7 +419,7 @@
     ],
     [
       "Ukraine",
-      "../img/flags/ukraineFlag.svg",
+      "../img/flags/ukraineFlag.png",
       30313,
       25.100,
       1,
@@ -427,7 +427,7 @@
     ],
     [
       "Wales",
-      "../img/flags/walesFlag.svg",
+      "../img/flags/walesFlag.png",
       24521,
       25.100,
       1,
@@ -3115,7 +3115,7 @@
         "Gävle"
       ],
       [
-        "GIF Sundsvall",
+        "png Sundsvall",
         "Sundsvall"
       ],
       [
