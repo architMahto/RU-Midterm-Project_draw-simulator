@@ -1,39 +1,17 @@
 ;(function() {
   'use strict';
 
-  angular.module('tournamentController', [])
+  angular.module('tournamentControllers', ["firebase"])
     .controller('tournamentController', tournamentController)
 
   // Controller Callback
-  function tournamentController($http) {
+  function tournamentController($http, $firebaseArray) {
     var tournamentCtrl = this;
 
+    var ref = new Firebase('https://draw-simulator.firebaseio.com/tournaments');
+
     // 2D array of tournament objects
-    tournamentCtrl.tournaments = [
-      [
-        {
-          name: "UEFA European Championship",
-          federation: "UEFA",
-          imageURL: "../../img/uefaEuro2016.png",
-          club: false,
-          maxTeams: 24
-        },
-        {
-          name: "UEFA Champions League",
-          federation: "UEFA",
-          imageURL: "../../img/uefaChampionsLeague2.png",
-          club: true,
-          maxTeams: 32
-        },
-        {
-          name: "UEFA Europa League",
-          federation: "UEFA",
-          imageURL: "../../img/uefaEuropaLeague.png",
-          club: true,
-          maxTeams: 48
-        }
-      ]
-    ];
+    tournamentCtrl.tournaments = [$firebaseArray(ref)];
 
     tournamentCtrl.currentFederation = 0;
     tournamentCtrl.currentTournament = 0;
@@ -47,7 +25,7 @@
         tournamentCtrl.currentFederation -= 1;
         tournamentCtrl.currentTournament = 0;
       }
-      console.log(tournamentCtrl.tournaments);
+      // console.log(tournamentCtrl.tournaments);
     }
 
     tournamentCtrl.moveFederationRight = function () {
@@ -58,7 +36,7 @@
         tournamentCtrl.currentFederation += 1;
         tournamentCtrl.currentTournament = 0;
       }
-      console.log(tournamentCtrl.tournaments);
+      // console.log(tournamentCtrl.tournaments);
     }
 
     /* Functionality to browse through tournaments */
@@ -68,7 +46,7 @@
       } else {
         tournamentCtrl.currentTournament -= 1;
       }
-      console.log(tournamentCtrl.tournaments);
+      // console.log(tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].$id);
     }
 
     tournamentCtrl.moveTournamentRight = function () {
@@ -77,7 +55,7 @@
       } else {
         tournamentCtrl.currentTournament += 1;
       }
-      console.log(tournamentCtrl.tournaments);
+      // console.log(tournamentCtrl.tournaments[tournamentCtrl.currentFederation][tournamentCtrl.currentTournament].$id);
     }
 
   }

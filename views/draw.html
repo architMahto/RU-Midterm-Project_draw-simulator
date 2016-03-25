@@ -1,3 +1,65 @@
   <div class="container" ng-controller="drawController as drawCtrl">
     <h2 class="center">Groups For </h2>
+
+    <!-- Div for Pots  -->
+    <div class="row">
+
+      <h2 class="center">Pots</h2>
+
+      <div class="col s3">
+        <table class="highlight centered">
+          <thead>
+            <th>Pot 1</th>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col s3">
+        <table class="highlight centered">
+          <thead>
+            <th>Pot 2</th>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col s3">
+        <table class="highlight centered">
+          <thead>
+            <th>Pot 3</th>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col s3">
+        <table class="highlight centered">
+          <thead>
+            <th>Pot 4</th>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s4">
+          <a ui-sref="tournamentSelector" class="waves-effect waves-light btn-large">Select Tournament</a>
+      </div>
+
+      <div class="col s4">
+          <a ui-sref="teamSelector" class="waves-effect waves-light btn-large">Select Different Teams</a>
+      </div>
+
+      <div class="col s4">
+        <button class="btn-large waves-effect waves-light" type="submit">
+          Draw Again
+        </button>
+      </div>
+    </div>
   </div>

@@ -5,11 +5,16 @@
     .controller('selectController', selectController)
 
   // Controller Callback
-  function selectController($http, $stateParams) {
+  function selectController($http, $stateParams, $firebaseObject, $firebaseArray) {
     var selectCtrl = this;
 
+    var ref = new Firebase('https://draw-simulator.firebaseio.com/tournaments/' + $stateParams.id);
+    // console.log($stateParams.id);
+    var teamsRef = new Firebase('https://draw-simulator.firebaseio.com/teams');
+
     // tournament variable to store $stateParams from tournamentSelector.html
-    selectCtrl.tournament = new Tournament($stateParams);
+    selectCtrl.tournament = $firebaseObject(ref);
+    // console.log(selectCtrl.tournament);
     // list of countries variable
     selectCtrl.countries = [];
     // status variables for tournament type
@@ -22,6 +27,8 @@
     selectCtrl.currentClub = 0;
     // list of teams in tournament
     selectCtrl.tournamentTeams = [];
+    // json array to store tournamentTeams
+    selectCtrl.tournamentTeamsDatabase = $firebaseArray(teamsRef);
 
     /* Make call to consume countries.json API*/
     $http.get("../json/countries.json").then(getCountries);
@@ -47,11 +54,10 @@
           selectCtrl.countries[i].host = true;
           selectCtrl.countries[i].removeButton = false;
           selectCtrl.tournamentTeams.push(selectCtrl.countries[i]);
+          // selectCtrl.tournamentTeamsDatabase.$add(selectCtrl.countries[i])
           break;
         }
       }
-
-      console.log(selectCtrl.countries);
     }
 
     // Country constructor function
@@ -69,17 +75,6 @@
       this.name = name;
       this.city = city;
       this.country = country;
-    }
-
-    // Tournament constructor function
-    function Tournament($stateParams) {
-      this.name = $stateParams.name;
-      if ($stateParams.club == 'false') {
-        this.club = false;
-      } else {
-        this.club = true;
-      }
-      this.maxTeams = parseInt($stateParams.maxTeams);
     }
 
     /* Functionality to browse through countries */
@@ -143,17 +138,16 @@
     }
 
     selectCtrl.addTeamToTournament = function (country, club) {
-
        if (!selectCtrl.tournament.club &&
            ableToAddTeam(country, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)) {
-        //  country.removeButton = false;
-        //  console.log(country);
          selectCtrl.tournamentTeams.push(country);
+         selectCtrl.tournamentTeams = _.sortBy(selectCtrl.tournamentTeams, 'name');
+        //  selectCtrl.tournamentTeamsDatabase.$add(country);
        } else if (selectCtrl.tournament.club &&
                   ableToAddTeam(club, selectCtrl.tournamentTeams, selectCtrl.tournament.maxTeams)){
-        //  club.removeButton = false;
-        //  console.log(club);
          selectCtrl.tournamentTeams.push(club);
+         selectCtrl.tournamentTeams = _.sortBy(selectCtrl.tournamentTeams, 'name');
+        //  selectCtrl.tournamentTeamsDatabase.$add(club);
        }
     }
 
@@ -161,6 +155,5 @@
     selectCtrl.removeTeam = function (index) {
         selectCtrl.tournamentTeams.splice(index,1);
     }
-
   }
 })();
